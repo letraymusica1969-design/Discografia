@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .git-credentials
 gh auth status.md
+
+# web (Next.js)
+node_modules/
+.next/
+web/dev.log
+*.log

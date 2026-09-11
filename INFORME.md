@@ -149,25 +149,25 @@ _Ritmos que levantan el ánimo._ Cierre del box: euforia, celebraciones y madrug
 
 ---
 
-## Tapas (estética años 80)
+## Tapas (v3 — dirección artística «pintura de estudio»)
 
-En `Discos\Tapas\` hay 10 imágenes (front + dorso) de 1500×1500 px. Cada portada rompe con las
-demás usando **un lenguaje visual real de los 80** — recopilado de tapas icónicas de la década:
+En `Discos\Tapas\` hay 10 imágenes (front + dorso) de 1500×1500 px. Las portadas dejaron de ser
+«póster plano» y pasaron a una direccion artistica rica, cada una con su propia técnica:
 
-- **Medianoche** = soft-focus elegante a lo Sade / *Brothers in Arms*: cielo crepúsculo pastel, luna
-  de halo dorado, tipografía serif con dorado y marcos finos.
-- **Ciudad de Neon** = synthwave/outrun (OutRun, Kavinsky): sol rayado, skyline silueta, rejilla
-  neón en perspectiva y título en degradado cian→magenta.
-- **Ochentas** = pop MTV / arcade: diamante láser, manchas aerografiadas, scanlines y título
-  «chrome» rayado (gas-fill).
-- **Llamas** = Memphis-Milano (Sottsass/Nathalie Du Pasquier): zigzag, confeti, garabatos y lenguas
-  geométricas en magenta/teal/amarillo sobre negro.
-- **Euforia** = post-punk B/N (Depeche Mode/New Order): monocromo de alto contraste, barras de
-  ritmo estacato y título con letras con saltos.
+- **Medianoche** — nocturno pastel: luna construida con niebla fractal, bokeh de luces fuera de
+  foco, gradiente crepuscular y titulo serif con dorado metalico y brillo interno.
+- **Ciudad de Neon** — outrun nocturno: sol rayado con bloom, skyline, rejilla neón en
+  perspectiva y una ola de luz blanca que recorre la tapa; título en degradado cian→fucsia.
+- **Ochentas** — memoria de arcade: arcos concéntricos luminosos, manchas aerografiadas y título
+  con terminación cromada.
+- **Llamas** — campo de fuego: paisaje de calor generado por ruido fractal (no llamas vectoriales),
+  venas de luz doradas y marco teal.
+- **Euforia** — estallido radial: 200 trazos de partículas desde el centro con anillo rojo.
 
-El dorso es común a los cinco (formato «colección en vinilo»): dorado/serif, tracklist a dos
-columnas LADO A/LADO B, código de barras. **Sin numeración de discos, por pedido.**
-Regenerables/editables con `make_covers.py`.
+Todos los frentes comparten el SHEEN metálico sobre el título, grano fotográfico y el sello
+«CANCIONES DE UNA CIUDAD». **Los dorsos** colocan el bloque de créditos/artista (SANDRO SAAVEDRA)
+en la esquina inferior derecha y el código de barras abajo a la izquierda. Sin numeración de
+discos. Regenerables con `make_covers.py`.
 - **Dorso:** tracklist minimalista en dos columnas con duraciones, onda tenue al pie y código de
   barras.
 

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-main">
         <div>
           <p className="footer-logo">SANDRO SAAVEDRA</p>
-          <p className="footer-tag">Canciones de una ciudad — Box set de 5 volúmenes</p>
+          <p className="footer-tag">Canciones de una ciudad — Box set de 6 volúmenes</p>
         </div>
         <div className="footer-links">
           <Link href="/musica">Musica</Link>

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import DiscCard from '../components/DiscCard';
 import Join from '../components/Join';
 import { getDiscos } from '../lib/data';
+import { COVER_VERSION } from '../lib/version';
 
 const MARQUEE = [
   'MEDIANOCHE',
@@ -16,7 +17,7 @@ const MARQUEE = [
 export default function Home() {
   const discos = getDiscos();
   const total = discos.reduce((a, d) => a + d.tracklist.length, 0);
-  const cov = (i) => `/covers/${discos[i].slug}_front.jpg`;
+  const cov = (i) => `/covers/${discos[i].slug}_front.jpg?${COVER_VERSION}`;
   const run = (k) => (
     <div key={k} className="ticker-run">
       {MARQUEE.map((t, i) => (
@@ -39,17 +40,17 @@ export default function Home() {
             <img className="cp cp-2" src={cov(2)} alt="" />
             <img className="cp cp-3" src={cov(4)} alt="" />
           </div>
-          <span className="pile-chip">BOX SET · 5 DISCOS · 2026</span>
+          <span className="pile-chip">BOX SET · 6 DISCOS · 2026</span>
           <span className="bk bk-1" /><span className="bk bk-2" /><span className="bk bk-3" />
         </div>
         <div className="hero-inner">
           <p className="hero-kicker">SANDRO SAAVEDRA · 2026</p>
-          <h1>
+          <h1 aria-label="Sandro Saavedra">
             SANDRO<br />
             <span className="thin">SAAVEDRA</span>
           </h1>
           <p className="hero-sub">
-            Canciones de una ciudad — un box set de cinco discos, {total} canciones.
+            Canciones de una ciudad — un box set de seis discos, {total} canciones.
           </p>
           <div className="hero-cta">
             <Link href="/musica" className="primary">Explorar la música</Link>
@@ -68,8 +69,8 @@ export default function Home() {
             <p className="date">BOX SET · 2026</p>
             <h3>Canciones de una ciudad</h3>
             <p>
-              El box set completo llega en cinco volúmenes: Medianoche, Ciudad de Neon, Ochentas,
-              Llamas y Euforia. Vinilo 33⅓, estéreo, con libreto y código de barras.
+              El box set completo llega en seis volúmenes: Medianoche, Ciudad de Neon, Ochentas,
+              Llamas, Euforia y Directo. Vinilo 33⅓, estéreo, con libreto y código de barras.
             </p>
             <Link href="/musica" className="more">Ver la colección →</Link>
           </article>

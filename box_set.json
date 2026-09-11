@@ -116,11 +116,11 @@
    },
    {
     "n": 13,
-    "archivo": "Pendientes/donde-falle.mp3",
+    "archivo": "donde-falle.mp3",
     "nombre": "13 - Donde falle.mp3",
     "titulo": "Donde falle",
     "bpm": 95.7,
-    "duracion": 216.89469387755102,
+    "duracion": 216.895,
     "tonalidad": "Re"
    },
    {
@@ -152,11 +152,11 @@
    },
    {
     "n": 17,
-    "archivo": "Pendientes/hombre-del-ayer.mp3",
+    "archivo": "hombre-del-ayer.mp3",
     "nombre": "17 - Hombre del ayer.mp3",
     "titulo": "Hombre del ayer",
     "bpm": 99.4,
-    "duracion": 330.13551020408164,
+    "duracion": 330.136,
     "tonalidad": "Re"
    },
    {
@@ -165,7 +165,7 @@
     "nombre": "18 - Perdoname.mp3",
     "titulo": "Perdoname",
     "bpm": 99.4,
-    "duracion": 241.76326530612246,
+    "duracion": 241.763,
     "tonalidad": "Sol"
    }
   ]
@@ -183,7 +183,7 @@
     "nombre": "01 - Senales.mp3",
     "titulo": "Senales",
     "bpm": 103.4,
-    "duracion": 317.54448979591837,
+    "duracion": 317.544,
     "tonalidad": "Do#"
    },
    {
@@ -206,11 +206,11 @@
    },
    {
     "n": 4,
-    "archivo": "Pendientes/nada-nos-aparta.mp3",
+    "archivo": "nada-nos-aparta.mp3",
     "nombre": "04 - Nada nos aparta.mp3",
     "titulo": "Nada nos aparta",
     "bpm": 103.4,
-    "duracion": 217.96571428571428,
+    "duracion": 217.966,
     "tonalidad": "Fa"
    },
    {
@@ -260,11 +260,11 @@
    },
    {
     "n": 10,
-    "archivo": "Pendientes/escucho-tu-voz.mp3",
+    "archivo": "escucho-tu-voz.mp3",
     "nombre": "10 - Escucho tu voz.mp3",
     "titulo": "Escucho tu voz",
     "bpm": 112.3,
-    "duracion": 216.29387755102042,
+    "duracion": 216.294,
     "tonalidad": "Sol#"
    },
    {
@@ -296,38 +296,38 @@
    },
    {
     "n": 14,
-    "archivo": "Pendientes/lo-que-pides.mp3",
+    "archivo": "lo-que-pides.mp3",
     "nombre": "14 - Lo que pides.mp3",
     "titulo": "Lo que pides",
     "bpm": 112.3,
-    "duracion": 210.33795918367346,
+    "duracion": 210.338,
     "tonalidad": "Fa#"
    },
    {
     "n": 15,
-    "archivo": "Pendientes/el-amor-lo-cambia-todo.mp3",
+    "archivo": "el-amor-lo-cambia-todo.mp3",
     "nombre": "15 - El amor lo cambia todo.mp3",
     "titulo": "El amor lo cambia todo",
     "bpm": 112.3,
-    "duracion": 202.63183673469388,
+    "duracion": 202.632,
     "tonalidad": "Sol"
    },
    {
     "n": 16,
-    "archivo": "Pendientes/quiero-saber.mp3",
+    "archivo": "quiero-saber.mp3",
     "nombre": "16 - Quiero saber.mp3",
     "titulo": "Quiero saber",
     "bpm": 112.3,
-    "duracion": 228.91102040816327,
+    "duracion": 228.911,
     "tonalidad": "Do"
    },
    {
     "n": 17,
-    "archivo": "Pendientes/dame-esta-noche.mp3",
+    "archivo": "dame-esta-noche.mp3",
     "nombre": "17 - Dame esta noche.mp3",
     "titulo": "Dame esta noche",
     "bpm": 112.3,
-    "duracion": 244.58448979591836,
+    "duracion": 244.584,
     "tonalidad": "Re"
    },
    {
@@ -426,7 +426,7 @@
     "nombre": "07 - Ultimo tren.mp3",
     "titulo": "Ultimo tren",
     "bpm": 117.5,
-    "duracion": 235.33714285714285,
+    "duracion": 235.337,
     "tonalidad": "Sol"
    },
    {
@@ -440,20 +440,20 @@
    },
    {
     "n": 9,
-    "archivo": "Pendientes/sigo-en-vos.mp3",
+    "archivo": "sigo-en-vos.mp3",
     "nombre": "09 - Sigo en vos.mp3",
     "titulo": "Sigo en vos",
     "bpm": 117.5,
-    "duracion": 292.9371428571429,
+    "duracion": 292.937,
     "tonalidad": "Fa"
    },
    {
     "n": 10,
-    "archivo": "Pendientes/sigue-asi.mp3",
+    "archivo": "sigue-asi.mp3",
     "nombre": "10 - Sigue asi.mp3",
     "titulo": "Sigue asi",
     "bpm": 117.5,
-    "duracion": 161.85469387755103,
+    "duracion": 161.855,
     "tonalidad": "Mi"
    },
    {
@@ -480,7 +480,7 @@
     "nombre": "13 - Universo.mp3",
     "titulo": "Universo",
     "bpm": 123.0,
-    "duracion": 316.34285714285716,
+    "duracion": 316.343,
     "tonalidad": "Re#"
    },
    {
@@ -489,7 +489,7 @@
     "nombre": "14 - Subir.mp3",
     "titulo": "Subir",
     "bpm": 123.0,
-    "duracion": 194.79510204081632,
+    "duracion": 194.795,
     "tonalidad": "Sol#"
    }
   ]
@@ -503,11 +503,11 @@
   "tracklist": [
    {
     "n": 1,
-    "archivo": "Pendientes/la-unica.mp3",
+    "archivo": "la-unica.mp3",
     "nombre": "01 - La unica.mp3",
     "titulo": "La unica",
     "bpm": 129.2,
-    "duracion": 186.64489795918368,
+    "duracion": 186.645,
     "tonalidad": "Sol"
    },
    {
@@ -548,11 +548,11 @@
    },
    {
     "n": 6,
-    "archivo": "Pendientes/dilo-ahora.mp3",
+    "archivo": "dilo-ahora.mp3",
     "nombre": "06 - Dilo ahora.mp3",
     "titulo": "Dilo ahora",
     "bpm": 129.2,
-    "duracion": 285.20489795918365,
+    "duracion": 285.205,
     "tonalidad": "Do"
    },
    {
@@ -674,11 +674,11 @@
    },
    {
     "n": 4,
-    "archivo": "Pendientes/los-dias-son-numeros.mp3",
+    "archivo": "los-dias-son-numeros.mp3",
     "nombre": "04 - Los dias son numeros.mp3",
     "titulo": "Los dias son numeros",
     "bpm": 152.0,
-    "duracion": 324.2057142857143,
+    "duracion": 324.206,
     "tonalidad": "Re"
    },
    {
@@ -696,16 +696,16 @@
     "nombre": "06 - Susurros Nocturnos.mp3",
     "titulo": "Susurros Nocturnos",
     "bpm": 161.5,
-    "duracion": 260.4669387755102,
+    "duracion": 260.467,
     "tonalidad": "Sol"
    },
    {
     "n": 7,
-    "archivo": "susurros-nocturnos.mp3",
-    "nombre": "07 - Susurros nocturnos.mp3",
+    "archivo": "Susurros Nocturnos.mp3",
+    "nombre": "07 - Susurros Nocturnos.mp3",
     "titulo": "Susurros nocturnos",
     "bpm": 161.5,
-    "duracion": 260.4669387755102,
+    "duracion": 260.467,
     "tonalidad": "Sol"
    },
    {
@@ -746,13 +746,21 @@
    },
    {
     "n": 12,
-    "archivo": "Pendientes/mundo-cruel.mp3",
+    "archivo": "mundo-cruel.mp3",
     "nombre": "12 - Mundo cruel.mp3",
     "titulo": "Mundo cruel",
     "bpm": 172.3,
-    "duracion": 217.5477551020408,
+    "duracion": 217.548,
     "tonalidad": "La"
    }
   ]
+ },
+ {
+  "numero": 6,
+  "titulo": "Directo",
+  "slug": "Disco_6_Directo",
+  "ambito": "en vivo",
+  "subtitulo": "Las canciones en vivo, sin red",
+  "tracklist": []
  }
 ]

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { COVER_VERSION } from '../lib/version';
 
 const ACCENT = {
   Medianoche: '#c8a96a',
@@ -11,7 +12,7 @@ const ACCENT = {
 };
 
 export default function DiscCard({ d, index = 0 }) {
-  const img = `/covers/${d.slug}_front.jpg`;
+  const img = `/covers/${d.slug}_front.jpg?${COVER_VERSION}`;
   const accent = ACCENT[d.titulo] || '#c8a96a';
   return (
     <Link

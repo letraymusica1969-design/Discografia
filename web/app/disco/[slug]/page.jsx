@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getDiscos, getDisco, fmtTime } from '../../../lib/data';
+import { COVER_VERSION } from '../../../lib/version';
 
 export function generateStaticParams() {
   return getDiscos().map((d) => ({ slug: d.slug }));
@@ -19,7 +20,7 @@ export default async function DiscoPage({ params }) {
   return (
     <>
       <section className="disco-hero">
-        <img src={`/covers/${d.slug}_front.jpg`} alt={`${d.titulo} — portada`} />
+        <img src={`/covers/${d.slug}_front.jpg?${COVER_VERSION}`} alt={`${d.titulo} — portada`} />
         <div>
           <p className="kick">BOX SET · VINILO · 2026 · VOL.{String(d.numero).padStart(2, '0')}</p>
           <h1>{d.titulo}</h1>
@@ -48,7 +49,7 @@ export default async function DiscoPage({ params }) {
       </section>
 
       <div className="disco-backback">
-        <img src={`/covers/${d.slug}_back.jpg`} alt={`${d.titulo} — dorso`} />
+        <img src={`/covers/${d.slug}_back.jpg?${COVER_VERSION}`} alt={`${d.titulo} — dorso`} />
       </div>
     </>
   );

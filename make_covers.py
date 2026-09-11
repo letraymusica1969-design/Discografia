@@ -260,217 +260,377 @@ def base_art(pal, seed):
 
 
 PAL = {
-    1: dict(stops=[(0, (5, 7, 18)), (0.38, (28, 20, 54)), (0.7, (88, 44, 96)),
-                   (1.0, (132, 66, 108))],
-            gold=(214, 176, 120), cream=(242, 234, 222), moon=(255, 240, 210),
-            glow=(255, 214, 170)),
-    2: dict(stops=[(0, (6, 3, 26)), (0.55, (24, 10, 58)), (1.0, (86, 22, 96))],
-            cyan=(0, 255, 251), magenta=(255, 45, 142), sun=(255, 152, 60),
-            glow=(255, 96, 180)),
-    3: dict(stops=[(0, (20, 16, 44)), (0.6, (66, 34, 84)), (1.0, (128, 70, 112))],
-            cream=(250, 240, 218), amber=(255, 204, 92), blue=(128, 194, 255),
-            glow=(255, 170, 80)),
-    4: dict(stops=[(0, (18, 3, 6)), (0.5, (92, 12, 20)), (1.0, (150, 36, 16))],
-            gold=(255, 214, 96), crimson=(255, 84, 46), teal=(80, 216, 200),
-            glow=(255, 150, 50)),
-    5: dict(stops=[(0, (8, 10, 14)), (0.5, (44, 48, 56)), (1.0, (104, 108, 118))],
-            wh=(250, 250, 248), red=(255, 84, 84), lime=(196, 255, 132),
-            glow=(255, 120, 120)),
+    1: dict(stops=[(0, (4, 7, 20)), (0.45, (26, 38, 74)), (1.0, (70, 96, 150))],
+            gold=(202, 178, 120), cream=(238, 232, 220), moon=(236, 244, 255),
+            glow=(190, 220, 255)),
+    2: dict(stops=[(0, (8, 2, 30)), (0.5, (30, 10, 64)), (1.0, (110, 38, 118))],
+            cyan=(0, 244, 255), magenta=(255, 64, 170), sun=(255, 160, 70),
+            cream=(250, 242, 230), glow=(140, 90, 255)),
+    3: dict(stops=[(0, (24, 18, 40)), (0.5, (60, 30, 80)), (1.0, (140, 70, 120))],
+            cream=(250, 240, 220), amber=(255, 190, 60), blue=(80, 170, 255),
+            pink=(255, 110, 170), teal=(50, 190, 180), red=(235, 65, 70),
+            dark=(24, 18, 40), glow=(255, 214, 90)),
+    4: dict(stops=[(0, (16, 8, 38)), (0.5, (74, 22, 112)), (1.0, (180, 68, 118))],
+            storm=(220, 120, 240), head=(255, 235, 214), gold=(255, 210, 110),
+            red=(255, 80, 60), glow=(255, 150, 220)),
+    5: dict(stops=[(0, (222, 236, 252)), (0.6, (170, 204, 240)), (1.0, (104, 156, 224))],
+            ink=(20, 30, 80), red=(232, 60, 70), sun=(255, 236, 160),
+            cream=(250, 248, 240), glow=(255, 214, 90)),
+    6: dict(stops=[(0, (10, 10, 10)), (0.5, (40, 34, 32)), (1.0, (92, 76, 66))],
+            wh=(244, 242, 238), red=(230, 60, 50), gold=(205, 170, 110),
+            acid=(255, 214, 64), glow=(255, 214, 64)),
 }
 
 
-# ---- 1 MEDIANOCHE : nocturno con luna de nubes y bokeh ----
+# ---- 1 MEDIANOCHE : noche pictorica al modo Disintegration ----
 def front_medianoche(p):
-    img = base_art(p, 101)
-    img = ovl(img, glayer((S * 0.5, 470), 330, p["moon"], 34))
-    lay = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    d = ImageDraw.Draw(lay)
-    d.ellipse([S * 0.5 - 260, 210, S * 0.5 + 260, 730], fill=(255, 244, 218, 60))
-    d.ellipse([S * 0.5 - 238, 238, S * 0.5 + 238, 702], fill=(120, 80, 120, 0),
-              outline=(255, 244, 218, 90), width=2)
-    d.ellipse([S * 0.74, 120, S * 1.12, 460], outline=(214, 176, 120, 40), width=2)
-    bl = lay.filter(ImageFilter.GaussianBlur(18))
-    img = ovl(img, bl)
-    rnd = random.Random(11)
-    img = ovl(img, bokeh(img, rnd, (255, 214, 170), 44, 330, 900, 60, S - 60))
-    img = grain_add(np.asarray(img.convert("RGB")), 12, 7)
-    img = Image.fromarray(img).convert("RGBA")
-    dr = ImageDraw.Draw(img)
-    dr.rectangle([44, 44, S - 44, S - 44], outline=p["gold"], width=1)
-    dr.rectangle([52, 52, S - 52, S - 52], outline=(214, 176, 120, 120), width=1)
-    f_art = fload(F_SERIF, 34)
-    draw_center(dr, (S / 2, 118), ARTISTA, f_art, p["cream"], 8)
-    sculpt_title(img, "MEDIANOCHE", F_BOD, (150, 112, 66), (238, 204, 150),
-                 (6, 6, 16), p["moon"], 2, 2)
-    f_sub = fload(F_SERIF, 40)
-    draw_center(dr, (S / 2, 862), p["sub"].upper(), f_sub, p["cream"], 6)
-    dr.line([(S / 2 - 110, 806), (S / 2 + 110, 806)], fill=p["gold"], width=1)
-    draw_center(dr, (S / 2, S - 108), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
-                p["gold"], 7)
-    draw_center(dr, (S / 2, S - 62), "COLECCION EN VINILO  -  33 1/3 RPM  -  ESTEREO",
-                fload(F_NARR, 22), (242, 234, 222), 4)
+    arr = grad_img(p["stops"]).astype(float)
+    n = perlin(101, 5, 64)
+    arr *= (0.55 + 0.5 * n[:, :, None])
+    img = Image.fromarray(to_rgb(arr)).convert("RGBA")
+
+    nsm = perlin(102, 5, 96)
+    swirl = Image.fromarray((nsm * 255).astype(np.uint8)).convert("L")
+    swirl = swirl.filter(ImageFilter.GaussianBlur(4))
+    slay = Image.new("RGBA", (S, S), (86, 108, 160, 0))
+    slay.putalpha(swirl.point(lambda v: int(v * 0.4)))
+    img = ovl(img, slay)
+
+    img = ovl(img, glayer((S * 0.5, 640), 340, p["glow"], 60))
+    moon = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    md = ImageDraw.Draw(moon)
+    md.ellipse([S * 0.5 - 250, 390, S * 0.5 + 250, 890], fill=p["moon"] + (238,))
+    mph = (perlin(103, 6, 40) > 0.7).astype(np.uint8) * 255
+    mph = Image.fromarray(mph).convert("L").filter(ImageFilter.GaussianBlur(2))
+    mar = Image.new("RGBA", (S, S), (128, 138, 156, 150))
+    mar.putalpha(mph)
+    moon.alpha_composite(mar)
+    img = ovl(img, moon.filter(ImageFilter.GaussianBlur(2)))
+
+    for i, (y0, s, a) in enumerate(((380, 40, 6), (560, 90, 5), (720, 60, 3), (810, 30, 4))):
+        cl = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+        cd2 = ImageDraw.Draw(cl)
+        xx0 = 160 + i * 110
+        for j in range(120):
+            rx = xx0 + j * 24 + int(s * math.sin(j / 4 + i))
+            ry = y0 + int(18 * math.sin(j / 3 + i * 2))
+            r = 46 + int(24 * math.sin(j / 5 + i))
+            cd2.ellipse([rx - r, ry - r // 2, rx + r, ry + r // 2],
+                        fill=(230, 234, 244, a))
+        img = ovl(img, cl.filter(ImageFilter.GaussianBlur(12)))
+
+    gd = ImageDraw.Draw(img)
+    gd.polygon([(0, 1202), (S, 1202), (S, 1162), (0, 1132)], fill=(14, 20, 44, 255))
+    gd.rectangle([0, 1236, S, S], fill=(5, 8, 20, 255))
+    fx = S * 0.5
+    gd.ellipse([fx - 15, 1106 - 30, fx + 15, 1106], fill=(6, 10, 22))
+    gd.polygon([(fx - 10, 1132), (fx + 10, 1132), (fx + 8, 1236), (fx - 8, 1236)],
+               fill=(6, 10, 22))
+    gd.rectangle([44, 44, S - 44, S - 44], outline=p["gold"], width=1)
+    gd.rectangle([52, 52, S - 52, S - 52], outline=p["cream"] + (120,), width=1)
+
+    draw_center(gd, (S / 2, 108), ARTISTA, fload(F_SERIF, 32), p["cream"], 10)
+    sculpt_title(img, "MEDIANOCHE", F_BOD, (196, 172, 120), (244, 228, 196),
+                 (4, 6, 16), p["glow"], 2, 2)
+    f_sub = fload(F_SERIF, 38)
+    draw_center(gd, (S / 2, 976), p["sub"].upper(), f_sub, p["cream"], 5)
+    draw_center(gd, (S / 2, S - 92), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 24),
+                p["gold"], 6)
+    draw_center(gd, (S / 2, S - 52), "VINILO  -  33 1/3 RPM  -  ESTEREO",
+                fload(F_NARR, 20), p["cream"], 4)
     return img
 
 
-# ---- 2 CIUDAD DE NEON : grid + ola neon + sol ----
+# ---- 2 CIUDAD DE NEON : sol de scanlines + skyline + rejilla (Kraftwerk) ----
 def front_ciudad(p):
-    img = base_art(p, 202)
-    img = ovl(img, glayer((S * 0.5, 330), 380, p["sun"], 44))
+    arr = grad_img(p["stops"]).astype(float)
+    n = perlin(202, 5, 64)
+    arr *= (0.58 + 0.55 * n[:, :, None])
+    img = Image.fromarray(to_rgb(arr)).convert("RGBA")
+
     lay = Image.new("RGBA", (S, S), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
-    cx, cy, rr = S * 0.5, 330, 250
-    d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], fill=p["sun"] + (235,))
-    for i in range(0, rr, 18):
-        d.rectangle([cx - rr, cy - rr + i, cx + rr, cy - rr + i + 8], fill=(14, 6, 40))
-    bl = lay.filter(ImageFilter.GaussianBlur(6))
-    img = ovl(img, bl)
-    rnd = random.Random(13)
+    cx, cy = S * 0.5, 300
+    for rr in (320, 355, 395, 445):
+        d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], outline=p["sun"] + (70,), width=4)
+    d.ellipse([cx - 220, cy - 220, cx + 220, cy + 220], fill=p["sun"] + (210,))
+    for i in range(0, 446, 14):
+        d.rectangle([cx - 220, cy - 220 + i, cx + 220, cy - 220 + i + 9], fill=(18, 6, 48))
+    img = ovl(img, lay.filter(ImageFilter.GaussianBlur(2)))
+
+    h = 640
+    sky = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sky)
+    rnd = random.Random(23)
     x = -20
-    lay2 = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    d2 = ImageDraw.Draw(lay2)
-    h = int(S * 0.66)
-    while x < S + 60:
-        bw = rnd.randint(36, 150)
-        bh = rnd.randint(40, 210)
-        d2.rectangle([x, h - bh, x + bw, h], fill=(6, 2, 20))
-        x += bw + rnd.randint(0, 30)
-    img = ovl(img, lay2)
+    while x < S + 40:
+        bw = rnd.randint(48, 160)
+        bh = rnd.randint(70, 330)
+        sd.rectangle([x, h - bh, x + bw, h], fill=(6, 2, 20, 255))
+        for _ in range(rnd.randint(1, 3)):
+            wx = x + rnd.randint(10, max(12, bw - 12))
+            wy = h - rnd.randint(10, max(12, bh - 20))
+            sd.rectangle([wx - 4, wy, wx + 4, wy + 11], fill=p["cyan"] + (230,))
+        x += bw + rnd.randint(4, 30)
+    img = ovl(img, sky)
+
     gr = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    g = ImageDraw.Draw(gr)
-    for i in range(-8, 9):
-        xh = S / 2 + i * 46
-        g.line([(xh, h), (S / 2 + (xh - S / 2) * 3, S)], fill=p["magenta"], width=2)
-    for k in range(1, 15):
-        t = k / 15
+    gd = ImageDraw.Draw(gr)
+    for i in range(-9, 10):
+        xh = S / 2 + i * 52
+        gd.line([(xh, h), (S / 2 + (xh - S / 2) * 2.6, S)], fill=p["magenta"] + (215,), width=2)
+    for k in range(1, 17):
+        t = k / 17
         y = h + (S - h) * t ** 1.45
-        g.line([(0, y), (S, y)], fill=p["magenta"], width=2)
+        gd.line([(0, y), (S, y)], fill=p["magenta"] + (200,), width=2)
     img = ovl(img, gr)
-    wv = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    w = ImageDraw.Draw(wv)
-    pts = []
-    xx = np.linspace(-40, S + 40, 120)
-    yy = 1240 + 120 * np.sin(xx / 150) + 45 * np.sin(xx / 47 + 1.2)
-    pts += [(float(xx[i]), float(yy[i])) for i in range(len(xx))]
-    for r, wdt in ((12, 14), (0, 5)):
-        w.line(pts, fill=(255, 255, 255, 255), width=wdt)
-    wb = wv.filter(ImageFilter.GaussianBlur(8))
-    img = ovl(img, wb)
-    img = grain_add(np.asarray(img.convert("RGB")), 14, 6)
+
+    img = grain_add(np.asarray(img.convert("RGB")), 14, 7)
     img = Image.fromarray(img).convert("RGBA")
     dr = ImageDraw.Draw(img)
-    draw_spaced(dr, (66, 64), ARTISTA, fload(F_COND_R, 38), p["cyan"], 5)
-    sculpt_title(img, "CIUDAD DE NEON", F_COND, (40, 255, 252), (255, 64, 170),
-                 (4, 0, 20), p["glow"], 2, 3)
-    f_sub = fload(F_COND_R, 42)
-    draw_center(dr, (S / 2, 470), p["sub"].upper(), f_sub, (255, 255, 255), 5)
-    draw_center(dr, (S / 2, S - 96), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
+    draw_spaced(dr, (66, 62), ARTISTA, fload(F_COND_R, 40), p["cyan"], 6)
+    f_title = fit_font("CIUDAD DE NEON", 1280, 200, F_COND)
+    draw_spaced(dr, (84, S - 312), "CIUDAD DE NEON", f_title, p["magenta"], 4)
+    draw_spaced(dr, (76, S - 320), "CIUDAD DE NEON", f_title, p["cyan"], 4)
+    f_sub = fload(F_COND_R, 40)
+    draw_spaced(dr, (84, S - 210), p["sub"].upper(), f_sub, p["sun"], 4)
+    draw_center(dr, (S / 2, S - 92), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
                 p["cyan"], 5)
     return img
 
 
-# ---- 3 OCHENTAS : arco de medios tonos + titulo volumetrico ----
+# ---- 3 OCHENTAS : collage airbrush de poster ochentero (De La Soul) ----
 def front_ochentas(p):
-    base = grad_img(p["stops"]).astype(float)
-    n = perlin(303, 4, 96)
-    base *= (0.6 + 0.55 * n[:, :, None])
-    img = Image.fromarray(to_rgb(base)).convert("RGBA")
-    img = ovl(img, glayer((S * 0.14, S * 0.3), 460, p["blue"], 30))
-    img = ovl(img, glayer((S * 0.86, S * 0.72), 470, p["amber"], 34))
-    arch = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    d = ImageDraw.Draw(arch)
-    for k, (rr, wdt, col) in enumerate(((260, 10, p["cream"]), (310, 3, p["amber"]),
-                                        (360, 10, p["blue"]), (410, 3, p["cream"]),
-                                        (470, 2, p["amber"]))):
-        d.arc([S / 2 - rr, 150, S / 2 + rr, 150 + rr * 2], 180, 360, fill=col + (120,), width=wdt)
-    bl = arch.filter(ImageFilter.GaussianBlur(8))
-    img = ovl(img, bl)
-    img = grain_add(np.asarray(img.convert("RGB")), 16, 9)
+    img = Image.fromarray(grad_img([(0, (248, 240, 226)), (1, (226, 214, 194))])).convert("RGBA")
+    rnd = random.Random(31)
+    for cx, cy, r, col in ((S * 0.22, S * 0.30, 250, p["blue"]),
+                           (S * 0.80, S * 0.66, 300, p["pink"]),
+                           (S * 0.52, S * 0.20, 210, p["amber"]),
+                           (S * 0.34, S * 0.76, 235, p["teal"]),
+                           (S * 0.72, S * 0.28, 170, p["red"])):
+        img = ovl(img, glayer((int(cx), int(cy)), int(r), col, 34))
+
+    pan = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    pd = ImageDraw.Draw(pan)
+    pd.rectangle([S * 0.07, S * 0.32, S * 0.40, S * 0.58], outline=p["dark"] + (230,), width=14)
+    pd.rectangle([S * 0.62, S * 0.40, S * 0.91, S * 0.63], outline=p["red"] + (230,), width=12)
+    pd.line([(S * 0.07, S * 0.45), (S * 0.40, S * 0.45)], fill=p["dark"] + (200,), width=4)
+    pd.line([(S * 0.62, S * 0.52), (S * 0.91, S * 0.52)], fill=p["dark"] + (200,), width=4)
+    img = ovl(img, pan)
+
+    ch = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(ch)
+    for i in range(0, 260, 90):
+        for j, xx in enumerate(range(-90, S, 90)):
+            if (i // 90 + j) % 2 == 0:
+                cd.rectangle([xx, 1240 + i, xx + 90, 1330 + i], fill=p["teal"] + (130,))
+    img = ovl(img, ch)
+
+    st = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(st)
+    for _ in range(34):
+        x = rnd.randint(20, S - 20)
+        y = rnd.randint(20, S - 20)
+        r = rnd.randint(3, 7)
+        col = rnd.choice([p["dark"], p["red"], p["blue"], p["teal"]])
+        sd.polygon([(x, y - r), (x + r // 2, y - r // 2), (x + r, y),
+                    (x + r // 2, y + r // 2), (x, y + r), (x - r // 2, y + r // 2),
+                    (x - r, y), (x - r // 2, y - r // 2)], fill=col + (190,))
+    img = ovl(img, st)
+
+    img = grain_add(np.asarray(img.convert("RGB")), 16, 10)
     img = Image.fromarray(img).convert("RGBA")
     dr = ImageDraw.Draw(img)
-    draw_spaced(dr, (66, 64), ARTISTA, fload(F_COND_R, 40), p["cream"], 5)
-    sculpt_title(img, "OCHENTAS", F_COND, (255, 224, 130), (236, 96, 130),
-                 (10, 6, 26), p["glow"], 2, 2)
-    f_sub = fload(F_COND_R, 44)
-    draw_center(dr, (S / 2, 622), "★  %s  ★" % p["sub"].upper(), f_sub,
-                p["cream"], 4)
-    dr.line([(S / 2 - 150, 700), (S / 2 + 150, 700)], fill=p["cream"], width=1)
-    draw_center(dr, (S / 2, S - 96), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
-                p["blue"], 6)
+    draw_spaced(dr, (66, 62), ARTISTA, fload(F_COND_R, 40), p["dark"], 6)
+    sculpt_title(img, "OCHENTAS", F_COND, (160, 190, 255), (255, 96, 170),
+                 (30, 20, 50), p["glow"], 2, 3)
+    f_sub = fload(F_COND_R, 40)
+    draw_center(dr, (S / 2, 976), "★  %s  ★" % p["sub"].upper(), f_sub, p["dark"], 4)
+    draw_center(dr, (S / 2, S - 88), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
+                p["red"], 5)
     return img
 
 
-# ---- 4 LLAMAS : campo de fuego flow (perlin de calor) ----
+# ---- 4 LLAMAS : storm purple rain a lo Prince, moto contraluz ----
 def front_llamas(p):
     arr = grad_img(p["stops"]).astype(float)
     n = perlin(404, 5, 64)
-    t = np.linspace(0, 1, S)[:, None]
-    wavy = n * 0.6 + 0.28 * np.sin(np.linspace(0, 6, S)[None, :] * 4 + t * 2)
-    cap = 1 - np.clip((1 + (np.linspace(0, 1, S)[None, :] - 0.62) * 8), 0, 1)
-    val = np.clip(wavy * 2.2 - (1 - cap) * 1.6, 0, 1)
-    arr = arr * (0.55 + 1.2 * val[:, :, None])
-    arr = to_rgb(arr)
-    img = Image.fromarray(arr).convert("RGBA")
-    img = ovl(img, glayer((S * 0.3, 1050), 420, p["gold"], 34))
-    img = ovl(img, glayer((S * 0.68, 560), 340, p["crimson"], 30))
-    img = grain_add(np.asarray(img.convert("RGB")), 18, 8)
+    arr *= (0.6 + 0.5 * n[:, :, None])
+    img = Image.fromarray(to_rgb(arr)).convert("RGBA")
+    img = ovl(img, glayer((S * 0.5, 560), 430, p["glow"], 46))
+
+    rain = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rd = ImageDraw.Draw(rain)
+    rnd = random.Random(41)
+    for _ in range(95):
+        x0 = rnd.randint(0, S)
+        y0 = rnd.randint(-50, S - 200)
+        ln = rnd.randint(70, 280)
+        wd = rnd.choice([2, 3, 5])
+        col = rnd.choice([p["head"], p["gold"], p["storm"]])
+        a = rnd.randint(90, 230)
+        rd.line([(x0, y0), (x0 + int(ln * 0.26), y0 + ln)], fill=col + (a,), width=wd)
+    img = ovl(img, rain.filter(ImageFilter.GaussianBlur(1)))
+
+    sil = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sil)
+    sd.ellipse([S * 0.5 - 190, 1090, S * 0.5 - 90, 1200], fill=(10, 6, 20, 255))
+    sd.ellipse([S * 0.5 + 70, 1090, S * 0.5 + 170, 1200], fill=(10, 6, 20, 255))
+    sd.rectangle([S * 0.5 - 174, 1130, S * 0.5 + 154, 1168], fill=(12, 8, 22, 255))
+    sd.line([(S * 0.5 - 40, 1130), (S * 0.5 - 120, 1040)], fill=(12, 8, 22, 255), width=14)
+    sd.line([(S * 0.5 + 40, 1130), (S * 0.5 + 120, 1040)], fill=(12, 8, 22, 255), width=14)
+    sd.ellipse([S * 0.5 + 52, 1000, S * 0.5 + 130, 1085], fill=(10, 6, 18, 255))
+    sd.polygon([(S * 0.5 + 60, 1085), (S * 0.5 + 30, 1160), (S * 0.5 + 130, 1160),
+                (S * 0.5 + 118, 1085)], fill=(10, 6, 18, 255))
+    img = ovl(img, sil.filter(ImageFilter.GaussianBlur(2)))
+
+    em = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    ed = ImageDraw.Draw(em)
+    r2 = random.Random(42)
+    for _ in range(80):
+        x = r2.randint(0, S)
+        y = r2.randint(560, S)
+        r = r2.randint(2, 6)
+        ed.ellipse([x - r, y - r, x + r, y + r],
+                   fill=r2.choice([(255, 200, 90), (255, 130, 60), (255, 236, 170)])
+                   + (r2.randint(120, 230),))
+    img = ovl(img, em)
+
+    img = grain_add(np.asarray(img.convert("RGB")), 18, 9)
     img = Image.fromarray(img).convert("RGBA")
     dr = ImageDraw.Draw(img)
-    dr.rectangle([44, 44, S - 44, S - 44], outline=p["teal"], width=1)
-    draw_spaced(dr, (66, 64), ARTISTA, fload(F_COND_R, 42), p["gold"], 5)
-    sculpt_title(img, "LLAMAS", F_COND, (255, 240, 150), (255, 70, 30),
-                 (30, 4, 6), p["glow"], 2, 2)
-    f_sub = fload(F_COND_R, 46)
-    draw_center(dr, (S / 2, 668), p["sub"].upper(), f_sub, p["cream"] if False else
-                (255, 240, 220), 5)
-    dr.line([(S / 2 - 160, 724), (S / 2 + 160, 724)], fill=p["gold"], width=6)
-    draw_center(dr, (S / 2, S - 96), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
-                p["gold"], 6)
+    dr.rectangle([44, 44, S - 44, S - 44], outline=p["head"], width=1)
+    draw_spaced(dr, (66, 62), ARTISTA, fload(F_COND_R, 40), p["head"], 6)
+    sculpt_title(img, "LLAMAS", F_BOD, (255, 214, 120), (255, 150, 120),
+                 (40, 10, 40), p["glow"], 2, 2)
+    f_sub = fload(F_COND_R, 40)
+    draw_center(dr, (S / 2, 968), p["sub"].upper(), f_sub, p["head"], 5)
+    draw_center(dr, (S / 2, S - 88), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
+                p["gold"], 5)
     return img
 
 
-# ---- 5 EUFORIA : estallido radial + anillo ----
+# ---- 5 EUFORIA : sol ingenuo dibujado a mano (Daydream Nation) ----
 def front_euforia(p):
-    base = grad_img(p["stops"]).astype(float)
-    n = perlin(505, 4, 96)
-    base *= (0.7 + 0.5 * n[:, :, None])
-    base = to_rgb(base)
-    img = Image.fromarray(base).convert("RGBA")
-    cx, cy = S * 0.5, S * 0.42
-    lay = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    d = ImageDraw.Draw(lay)
-    rnd = random.Random(21)
-    for i in range(220):
+    img = Image.fromarray(grad_img(p["stops"])).convert("RGBA")
+
+    sun = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sun)
+    cx, cy, rr = S * 0.5, S * 0.46, 300
+    sd.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], fill=p["sun"] + (255,))
+    sd.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], outline=p["ink"] + (255,), width=14)
+    sd.ellipse([cx - 360, cy - 360, cx + 360, cy + 360], outline=p["red"] + (230,), width=10)
+    rnd = random.Random(51)
+    for _ in range(70):
         ang = rnd.uniform(0, math.pi * 2)
-        rr = rnd.uniform(120, 680)
-        wd = rnd.choice([2, 2, 4, 7])
-        i2 = rnd.uniform(0, 1)
-        col = tuple(int(p["wh"][k] * (0.3 + 0.7 * i2)) for k in range(3))
-        a = int(20 + 120 * (1 - rr / 690))
-        x0 = cx + rr * math.cos(ang)
-        y0 = cy + rr * math.sin(ang) * 0.9
-        x1 = cx + (rr + 40 + 40 * i2) * math.cos(ang)
-        y1 = cy + (rr + 40 + 40 * i2) * math.sin(ang) * 0.9
-        d.line([(x0, y0), (x1, y1)], fill=col + (a,), width=wd)
-    d.ellipse([cx - 210, cy - 210, cx + 210, cy + 210], outline=p["wh"] + (60,), width=2)
-    d.ellipse([cx - 240, cy - 240, cx + 240, cy + 240], outline=p["red"] + (70,), width=3)
-    bl = lay.filter(ImageFilter.GaussianBlur(4))
-    img = ovl(img, bl)
-    img = grain_add(np.asarray(img.convert("RGB")), 23, 10)
+        r0 = rnd.uniform(rr + 26, 560)
+        r1 = rnd.uniform(rr + 40, 730)
+        x0 = cx + r0 * math.cos(ang)
+        y0 = cy + r0 * math.sin(ang)
+        x1 = cx + r1 * math.cos(ang) * 0.9
+        y1 = cy + r1 * math.sin(ang) * 0.9
+        sd.line([(x0, y0), (x1, y1)], fill=p["ink"] + (rnd.randint(120, 220),),
+                width=rnd.choice([2, 3, 6]))
+    img = ovl(img, sun)
+
+    sc = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(sc)
+    r2 = random.Random(52)
+    for _ in range(130):
+        x0 = r2.randint(60, S - 60)
+        y0 = r2.randint(60, S - 60)
+        x1 = x0 + r2.randint(-190, 190)
+        y1 = y0 + r2.randint(-190, 190)
+        cd.line([(x0, y0), (x1, y1)], fill=p["ink"] + (r2.randint(50, 130),),
+                width=r2.choice([2, 3, 4]))
+    img = ovl(img, sc)
+
+    img = grain_add(np.asarray(img.convert("RGB")), 21, 9)
     img = Image.fromarray(img).convert("RGBA")
     dr = ImageDraw.Draw(img)
-    dr.line([(S * 0.5 - 250, 150), (S * 0.5 + 250, 150)], fill=p["red"], width=1)
-    draw_spaced(dr, (66, 64), ARTISTA, fload(F_COND_R, 40), p["wh"], 5)
-    sculpt_title(img, "EUFORIA", F_COND, (250, 250, 248), (196, 210, 220),
-                 (10, 10, 14), p["glow"], 2, 2)
-    f_sub = fload(F_COND_R, 44)
-    draw_center(dr, (S / 2, 760), p["sub"].upper(), f_sub, p["wh"], 5)
-    draw_center(dr, (S / 2, S - 96), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
-                p["lime"], 6)
+    draw_spaced(dr, (66, 62), ARTISTA, fload(F_COND_R, 40), p["ink"], 6)
+    sculpt_title(img, "EUFORIA", F_COND, (255, 240, 190), (255, 120, 110),
+                 (20, 30, 80), p["red"], 2, 2)
+    f_sub = fload(F_COND_R, 40)
+    draw_center(dr, (S / 2, 986), p["sub"].upper(), f_sub, p["ink"], 3)
+    dr.line([(S / 2 - 190, 1036), (S / 2 + 190, 1036)], fill=p["red"], width=4)
+    draw_center(dr, (S / 2, S - 84), "CANCIONES DE UNA CIUDAD", fload(F_NARR, 26),
+                p["ink"], 5)
+    return img
+
+
+# ---- 6 DIRECTO : bootleg rock en vivo (Appetite for Destruction) ----
+def front_directo(p):
+    arr = grad_img(p["stops"]).astype(float)
+    n = perlin(606, 4, 96)
+    arr *= (0.62 + 0.5 * n[:, :, None])
+    img = Image.fromarray(to_rgb(arr)).convert("RGBA")
+
+    cone = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(cone)
+    cd.polygon([(S * 0.5, -200), (S * 0.16, S), (S * 0.84, S)], fill=p["wh"] + (46,))
+    cd.ellipse([S * 0.44, 30, S * 0.56, 220], fill=p["wh"] + (210,))
+    img = ovl(img, cone.filter(ImageFilter.GaussianBlur(120)))
+    img = ovl(img, glayer((S * 0.5, 60), 300, p["wh"], 60))
+
+    rnd = random.Random(61)
+    rom = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rd = ImageDraw.Draw(rom)
+    yb = S - 260
+    for i in range(52):
+        x = rnd.randint(-40, S + 40)
+        y = yb + rnd.randint(0, 160)
+        r = rnd.randint(22, 34)
+        rd.ellipse([x - r, y - r, x + r, y + r], fill=(8, 7, 6, 240))
+        if rnd.random() < 0.32:
+            rd.line([(x, y - r),
+                     (x + rnd.randint(-40, 40), y - r - rnd.randint(30, 90))],
+                    fill=(10, 9, 8, 240), width=rnd.randint(4, 8))
+    rom = rom.filter(ImageFilter.GaussianBlur(2))
+    img = ovl(img, rom)
+
+    mic = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    md = ImageDraw.Draw(mic)
+    for k, xx in enumerate((S * 0.5 - 430, S * 0.5 + 40)):
+        md.line([(xx, 500), (xx + 90, 250)], fill=(6, 5, 5, 240), width=22)
+        md.ellipse([xx + 64, 214, xx + 120, 270], fill=(6, 5, 5, 240))
+    img = ovl(img, mic)
+
+    img = grain_add(np.asarray(img.convert("RGB")), 24, 42)
+    img = Image.fromarray(img).convert("RGBA")
+    dr = ImageDraw.Draw(img)
+
+    stamp = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(stamp)
+    sd.rectangle([150, 150, 470, 246], outline=p["red"] + (255,), width=9)
+    sd.rectangle([164, 164, 456, 232], outline=p["red"] + (255,), width=2)
+    sd.text((192, 164), "EN VIVO", font=fload(F_COND, 56), fill=p["red"])
+    img.alpha_composite(stamp.rotate(6, resample=Image.BICUBIC))
+
+    dr.ellipse([S - 216, 80, S - 158, 138], fill=p["red"])
+    draw_spaced(dr, (S - 162, 94), "REC", fload(F_COND, 36), p["red"], 6)
+    draw_spaced(dr, (66, 62), ARTISTA, fload(F_COND_R, 40), p["wh"], 8)
+
+    f_t = fit_font("DIRECTO", 1180, 250, F_BOD)
+    m, ox, oy = text_sil("DIRECTO", f_t, 3)
+    for dx, dy, col in ((-6, 5, (0, 0, 0)), (0, 0, p["wh"])):
+        lay2 = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+        ImageDraw.Draw(lay2).text((ox + dx, oy + dy), "DIRECTO", font=f_t,
+                                  fill=col + (255,))
+        if col == (0, 0, 0):
+            lay2 = lay2.filter(ImageFilter.GaussianBlur(1))
+        img.alpha_composite(lay2)
+
+    f_sub = fload(F_COND_R, 38)
+    draw_center(dr, (S / 2, 994), p["sub"].upper(), f_sub, p["acid"], 4)
+    dr.line([(S * 0.5 - 160, 1046), (S * 0.5 + 160, 1046)], fill=p["red"], width=5)
+    draw_center(dr, (S / 2, S - 84), "EL DESVAN DEL VINILO  -  (C) 2026",
+                fload(F_NARR, 24), p["red"], 3)
     return img
 
 
 FRONTS = {1: front_medianoche, 2: front_ciudad, 3: front_ochentas, 4: front_llamas,
-          5: front_euforia}
+          5: front_euforia, 6: front_directo}
 
 
 def np_random_halftone(seed):
@@ -478,7 +638,8 @@ def np_random_halftone(seed):
 
 
 # ---------------- DORSO ----------------
-BACK_TINT = {1: (10, 12, 26), 2: (12, 8, 30), 3: (18, 12, 30), 4: (22, 8, 10), 5: (16, 18, 22)}
+BACK_TINT = {1: (10, 12, 26), 2: (12, 8, 30), 3: (18, 12, 30), 4: (22, 8, 10), 5: (16, 18, 22),
+             6: (14, 10, 8)}
 
 
 def draw_back(d, pal):
@@ -495,8 +656,8 @@ def draw_back(d, pal):
     dr.rectangle([34, 34, S - 34, S - 34], outline=gold, width=1)
     dr.rectangle([42, 42, S - 42, S - 42], outline=(244, 236, 222, 90), width=1)
     draw_center(dr, (S / 2, 108), "CANCIONES DE UNA CIUDAD", fload(F_SERIF, 46), gold, 6)
-    draw_center(dr, (S / 2, 188), "UNA COLECCION EN VINILO", fload(F_NARR, 26),
-                (244, 236, 222), 4)
+    leyenda = "GRABADO EN VIVO - UNA SOLA TOMA" if d["numero"] == 6 else "UNA COLECCION EN VINILO"
+    draw_center(dr, (S / 2, 188), leyenda, fload(F_NARR, 26), (244, 236, 222), 4)
     draw_center(dr, (S / 2, 262), "TRACKLIST", fload(F_NARR, 30), (244, 236, 222), 10)
     dr.line([(S / 2 - 110, 316), (S / 2 + 110, 316)], fill=gold, width=1)
 

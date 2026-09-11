@@ -1,6 +1,6 @@
 # Colección «Canciones de una Ciudad»
 
-**Sandro Saavedra** — Box set de 5 discos · 79 temas · 5 h 36 min
+**Sandro Saavedra** — Box set de 6 discos · 79 temas · 5 h 36 min
 Analizada y organizada por temperamento musical (tempo, energía y tonalidad medidos con `librosa`).
 
 ---

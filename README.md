@@ -1,6 +1,6 @@
 # Discografia — Sandro Saavedra
 
-Box set **«Canciones de una ciudad»** — un box set de cinco discos en vinilo, 79 canciones, del autor **Sandro Saavedra** (música y letra).
+Box set **«Canciones de una ciudad»** — un box set de seis discos en vinilo, 79 canciones, del autor **Sandro Saavedra** (música y letra).
 
 ## Guía rápida (leer primero)
 
@@ -9,7 +9,7 @@ Este repositorio es la fuente de trabajo completa. Contiene: audio (MP3), portad
 ### Contexto que debe conocer la IA/persona que continúe
 
 - **Autor:** Sandro Saavedra. Créditos en el dorso: «Música y letra: Sandro Saavedra / Arreglos: Estudio Central / Producción: El Desván del Vinilo — 2026». Los créditos del autor van en la **esquina inferior derecha** del dorso.
-- **Box set:** 5 discos (VOL.01–05): Medianoche, Ciudad de Neon, Ochentas, Llamas, Euforia. 79 temas en total. Calibrados por BPM, de la balada nocturna a la euforia.
+- **Box set:** 6 discos (VOL.01–06): Medianoche, Ciudad de Neon, Ochentas, Llamas, Euforia, Directo. 79 temas en total. Calibrados por BPM, de la balada nocturna a la euforia.
 - **Fuente de verdad de datos:** `box_set.json` (títulos, tracklists con BPM y duraciones, totales por disco, nº canciones).
 - **Portadas:** se generan con `make_covers.py` (v3 artística: Perlin fractal en NumPy puro — sin SciPy), a 1500×1500 JPG. **No llevar número de disco a la portada** (ni «NO. 01/05», ni «VOL. X/5», ni numeración fantasma). El nº de volumen es un elemento decorativo solo de la web.
 - **No remasterizar audio.** Los MP3 ya están finales. No convertir/analizar con herramientas externas sin aprobación.

@@ -119,4 +119,4 @@ with open(os.path.join(OUT, "box_set.json"), "w", encoding="utf-8") as fh:
     json.dump(estructura, fh, ensure_ascii=False, indent=1)
 
 tot = sum(len(d["tracklist"]) for d in DISCOS)
-print("TOTAL:", tot, "temas en 5 discos")
+print("TOTAL:", tot, "temas en 6 discos")

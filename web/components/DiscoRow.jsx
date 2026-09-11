@@ -2,6 +2,7 @@
 
 import { useRef, useState } from 'react';
 import Link from 'next/link';
+import { COVER_VERSION } from '../lib/version';
 
 const ACCENT = {
   Medianoche: '#c8a96a',
@@ -36,7 +37,7 @@ export default function DiscoRow({ d, index = 0 }) {
       <Link href={`/disco/${d.slug}`} className="disco-card-main">
         <div className="disc-media">
           <div className="vinyl" data-label={`VOL.${String(d.numero).padStart(2, '0')}`} aria-hidden />
-          <div className="cover"><img src={`/covers/${d.slug}_front.jpg`} alt={`${d.titulo} — portada`} /></div>
+          <div className="cover"><img src={`/covers/${d.slug}_front.jpg?${COVER_VERSION}`} alt={`${d.titulo} — portada`} /></div>
         </div>
         <div className="disc-info">
           <p className="type">VOL.{String(d.numero).padStart(2, '0')} — BOX SET · VINILO</p>

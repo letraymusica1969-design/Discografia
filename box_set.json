@@ -1,0 +1,758 @@
+[
+ {
+  "numero": 1,
+  "titulo": "Medianoche",
+  "slug": "Disco_1_Medianoche",
+  "ambito": "menos de 100 BPM",
+  "subtitulo": "Baladas que se escuchan a oscuras",
+  "tracklist": [
+   {
+    "n": 1,
+    "archivo": "Sin aliento.mp3",
+    "nombre": "01 - Sin aliento.mp3",
+    "titulo": "Sin aliento",
+    "bpm": 78.3,
+    "duracion": 237.744,
+    "tonalidad": "Sol#"
+   },
+   {
+    "n": 2,
+    "archivo": "Esclavo.mp3",
+    "nombre": "02 - Esclavo.mp3",
+    "titulo": "Esclavo",
+    "bpm": 92.3,
+    "duracion": 239.784,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 3,
+    "archivo": "Solo un momento.mp3",
+    "nombre": "03 - Solo un momento.mp3",
+    "titulo": "Solo un momento",
+    "bpm": 92.3,
+    "duracion": 238.824,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 4,
+    "archivo": "La Razon.mp3",
+    "nombre": "04 - La Razon.mp3",
+    "titulo": "La Razon",
+    "bpm": 92.3,
+    "duracion": 309.984,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 5,
+    "archivo": "El rumor.mp3",
+    "nombre": "05 - El rumor.mp3",
+    "titulo": "El rumor",
+    "bpm": 92.3,
+    "duracion": 344.352,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 6,
+    "archivo": "La Razon (2).mp3",
+    "nombre": "06 - La Razon (2).mp3",
+    "titulo": "La Razon (version 2)",
+    "bpm": 92.3,
+    "duracion": 355.992,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 7,
+    "archivo": "Te Necesito Ahora.mp3",
+    "nombre": "07 - Te Necesito Ahora.mp3",
+    "titulo": "Te Necesito Ahora",
+    "bpm": 92.3,
+    "duracion": 305.712,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 8,
+    "archivo": "Noche con una desconocida.mp3",
+    "nombre": "08 - Noche con una desconocida.mp3",
+    "titulo": "Noche con una desconocida",
+    "bpm": 92.3,
+    "duracion": 270.312,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 9,
+    "archivo": "Donde.mp3",
+    "nombre": "09 - Donde.mp3",
+    "titulo": "Donde",
+    "bpm": 95.7,
+    "duracion": 215.952,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 10,
+    "archivo": "Relajate.mp3",
+    "nombre": "10 - Relajate.mp3",
+    "titulo": "Relajate",
+    "bpm": 95.7,
+    "duracion": 257.424,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 11,
+    "archivo": "Dejar atrás.mp3",
+    "nombre": "11 - Dejar atrás.mp3",
+    "titulo": "Dejar atrás",
+    "bpm": 95.7,
+    "duracion": 237.624,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 12,
+    "archivo": "Mientras el mundo cae.mp3",
+    "nombre": "12 - Mientras el mundo cae.mp3",
+    "titulo": "Mientras el mundo cae",
+    "bpm": 95.7,
+    "duracion": 264.96,
+    "tonalidad": "La#"
+   },
+   {
+    "n": 13,
+    "archivo": "Pendientes/donde-falle.mp3",
+    "nombre": "13 - Donde falle.mp3",
+    "titulo": "Donde falle",
+    "bpm": 95.7,
+    "duracion": 216.89469387755102,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 14,
+    "archivo": "No pienso en ti.mp3",
+    "nombre": "14 - No pienso en ti.mp3",
+    "titulo": "No pienso en ti",
+    "bpm": 99.4,
+    "duracion": 212.832,
+    "tonalidad": "Fa"
+   },
+   {
+    "n": 15,
+    "archivo": "No te Rindas.mp3",
+    "nombre": "15 - No te Rindas.mp3",
+    "titulo": "No te Rindas",
+    "bpm": 99.4,
+    "duracion": 335.88,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 16,
+    "archivo": "Dile.mp3",
+    "nombre": "16 - Dile.mp3",
+    "titulo": "Dile",
+    "bpm": 99.4,
+    "duracion": 255.024,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 17,
+    "archivo": "Pendientes/hombre-del-ayer.mp3",
+    "nombre": "17 - Hombre del ayer.mp3",
+    "titulo": "Hombre del ayer",
+    "bpm": 99.4,
+    "duracion": 330.13551020408164,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 18,
+    "archivo": "perdoname.mp3",
+    "nombre": "18 - Perdoname.mp3",
+    "titulo": "Perdoname",
+    "bpm": 99.4,
+    "duracion": 241.76326530612246,
+    "tonalidad": "Sol"
+   }
+  ]
+ },
+ {
+  "numero": 2,
+  "titulo": "Ciudad de Neon",
+  "slug": "Disco_2_Ciudad_de_Neon",
+  "ambito": "100-115 BPM",
+  "subtitulo": "Amores que brillan entre las luces",
+  "tracklist": [
+   {
+    "n": 1,
+    "archivo": "senales.mp3",
+    "nombre": "01 - Senales.mp3",
+    "titulo": "Senales",
+    "bpm": 103.4,
+    "duracion": 317.54448979591837,
+    "tonalidad": "Do#"
+   },
+   {
+    "n": 2,
+    "archivo": "Más allá.mp3",
+    "nombre": "02 - Más allá.mp3",
+    "titulo": "Más allá",
+    "bpm": 103.4,
+    "duracion": 265.92,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 3,
+    "archivo": "Buscando un amor.mp3",
+    "nombre": "03 - Buscando un amor.mp3",
+    "titulo": "Buscando un amor",
+    "bpm": 103.4,
+    "duracion": 208.032,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 4,
+    "archivo": "Pendientes/nada-nos-aparta.mp3",
+    "nombre": "04 - Nada nos aparta.mp3",
+    "titulo": "Nada nos aparta",
+    "bpm": 103.4,
+    "duracion": 217.96571428571428,
+    "tonalidad": "Fa"
+   },
+   {
+    "n": 5,
+    "archivo": "Generación Perdida.mp3",
+    "nombre": "05 - Generación Perdida.mp3",
+    "titulo": "Generación Perdida",
+    "bpm": 103.4,
+    "duracion": 204.672,
+    "tonalidad": "Mi"
+   },
+   {
+    "n": 6,
+    "archivo": "Radio & Ruta.mp3",
+    "nombre": "06 - Radio & Ruta.mp3",
+    "titulo": "Radio & Ruta",
+    "bpm": 107.7,
+    "duracion": 283.512,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 7,
+    "archivo": "Luna en la ciudad.mp3",
+    "nombre": "07 - Luna en la ciudad.mp3",
+    "titulo": "Luna en la ciudad",
+    "bpm": 107.7,
+    "duracion": 276.504,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 8,
+    "archivo": "Luna en la ciudad (2).mp3",
+    "nombre": "08 - Luna en la ciudad (2).mp3",
+    "titulo": "Luna en la ciudad (version 2)",
+    "bpm": 107.7,
+    "duracion": 276.504,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 9,
+    "archivo": "Dulces sueños.mp3",
+    "nombre": "09 - Dulces sueños.mp3",
+    "titulo": "Dulces sueños",
+    "bpm": 107.7,
+    "duracion": 182.28,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 10,
+    "archivo": "Pendientes/escucho-tu-voz.mp3",
+    "nombre": "10 - Escucho tu voz.mp3",
+    "titulo": "Escucho tu voz",
+    "bpm": 112.3,
+    "duracion": 216.29387755102042,
+    "tonalidad": "Sol#"
+   },
+   {
+    "n": 11,
+    "archivo": "Corazón De Piedra.mp3",
+    "nombre": "11 - Corazón De Piedra.mp3",
+    "titulo": "Corazón De Piedra",
+    "bpm": 112.3,
+    "duracion": 292.944,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 12,
+    "archivo": "Una noche inolvidable.mp3",
+    "nombre": "12 - Una noche inolvidable.mp3",
+    "titulo": "Una noche inolvidable",
+    "bpm": 112.3,
+    "duracion": 335.28,
+    "tonalidad": "Fa"
+   },
+   {
+    "n": 13,
+    "archivo": "Secretos al Hablar.mp3",
+    "nombre": "13 - Secretos al Hablar.mp3",
+    "titulo": "Secretos al Hablar",
+    "bpm": 112.3,
+    "duracion": 216.6,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 14,
+    "archivo": "Pendientes/lo-que-pides.mp3",
+    "nombre": "14 - Lo que pides.mp3",
+    "titulo": "Lo que pides",
+    "bpm": 112.3,
+    "duracion": 210.33795918367346,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 15,
+    "archivo": "Pendientes/el-amor-lo-cambia-todo.mp3",
+    "nombre": "15 - El amor lo cambia todo.mp3",
+    "titulo": "El amor lo cambia todo",
+    "bpm": 112.3,
+    "duracion": 202.63183673469388,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 16,
+    "archivo": "Pendientes/quiero-saber.mp3",
+    "nombre": "16 - Quiero saber.mp3",
+    "titulo": "Quiero saber",
+    "bpm": 112.3,
+    "duracion": 228.91102040816327,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 17,
+    "archivo": "Pendientes/dame-esta-noche.mp3",
+    "nombre": "17 - Dame esta noche.mp3",
+    "titulo": "Dame esta noche",
+    "bpm": 112.3,
+    "duracion": 244.58448979591836,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 18,
+    "archivo": "Domingo.mp3",
+    "nombre": "18 - Domingo.mp3",
+    "titulo": "Domingo",
+    "bpm": 112.3,
+    "duracion": 241.032,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 19,
+    "archivo": "Rara fiesta.mp3",
+    "nombre": "19 - Rara fiesta.mp3",
+    "titulo": "Rara fiesta",
+    "bpm": 112.3,
+    "duracion": 219.864,
+    "tonalidad": "Re#"
+   },
+   {
+    "n": 20,
+    "archivo": "Imaginación.mp3",
+    "nombre": "20 - Imaginación.mp3",
+    "titulo": "Imaginación",
+    "bpm": 112.3,
+    "duracion": 257.4,
+    "tonalidad": "Fa"
+   }
+  ]
+ },
+ {
+  "numero": 3,
+  "titulo": "Ochentas",
+  "slug": "Disco_3_Ochentas",
+  "ambito": "115-127 BPM",
+  "subtitulo": "El destello de una decada",
+  "tracklist": [
+   {
+    "n": 1,
+    "archivo": "Luz en el cielo.mp3",
+    "nombre": "01 - Luz en el cielo.mp3",
+    "titulo": "Luz en el cielo",
+    "bpm": 117.5,
+    "duracion": 250.032,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 2,
+    "archivo": "Ochentas (3).mp3",
+    "nombre": "02 - Ochentas (3).mp3",
+    "titulo": "Ochentas (version 3)",
+    "bpm": 117.5,
+    "duracion": 259.872,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 3,
+    "archivo": "Ochentas.mp3",
+    "nombre": "03 - Ochentas.mp3",
+    "titulo": "Ochentas",
+    "bpm": 117.5,
+    "duracion": 293.784,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 4,
+    "archivo": "Dime que estarás.mp3",
+    "nombre": "04 - Dime que estarás.mp3",
+    "titulo": "Dime que estarás",
+    "bpm": 117.5,
+    "duracion": 232.512,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 5,
+    "archivo": "Tren Peligroso.mp3",
+    "nombre": "05 - Tren Peligroso.mp3",
+    "titulo": "Tren Peligroso",
+    "bpm": 117.5,
+    "duracion": 234.12,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 6,
+    "archivo": "Ochentas (2).mp3",
+    "nombre": "06 - Ochentas (2).mp3",
+    "titulo": "Ochentas (version 2)",
+    "bpm": 117.5,
+    "duracion": 275.952,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 7,
+    "archivo": "ultimo-tren.mp3",
+    "nombre": "07 - Ultimo tren.mp3",
+    "titulo": "Ultimo tren",
+    "bpm": 117.5,
+    "duracion": 235.33714285714285,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 8,
+    "archivo": "perdido.mp3",
+    "nombre": "08 - Perdido.mp3",
+    "titulo": "Perdido",
+    "bpm": 117.5,
+    "duracion": 210.72,
+    "tonalidad": "Si"
+   },
+   {
+    "n": 9,
+    "archivo": "Pendientes/sigo-en-vos.mp3",
+    "nombre": "09 - Sigo en vos.mp3",
+    "titulo": "Sigo en vos",
+    "bpm": 117.5,
+    "duracion": 292.9371428571429,
+    "tonalidad": "Fa"
+   },
+   {
+    "n": 10,
+    "archivo": "Pendientes/sigue-asi.mp3",
+    "nombre": "10 - Sigue asi.mp3",
+    "titulo": "Sigue asi",
+    "bpm": 117.5,
+    "duracion": 161.85469387755103,
+    "tonalidad": "Mi"
+   },
+   {
+    "n": 11,
+    "archivo": "Atrapado.mp3",
+    "nombre": "11 - Atrapado.mp3",
+    "titulo": "Atrapado",
+    "bpm": 123.0,
+    "duracion": 185.04,
+    "tonalidad": "La#"
+   },
+   {
+    "n": 12,
+    "archivo": "Duele Amarte.mp3",
+    "nombre": "12 - Duele Amarte.mp3",
+    "titulo": "Duele Amarte",
+    "bpm": 123.0,
+    "duracion": 239.304,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 13,
+    "archivo": "universo.mp3",
+    "nombre": "13 - Universo.mp3",
+    "titulo": "Universo",
+    "bpm": 123.0,
+    "duracion": 316.34285714285716,
+    "tonalidad": "Re#"
+   },
+   {
+    "n": 14,
+    "archivo": "subir.mp3",
+    "nombre": "14 - Subir.mp3",
+    "titulo": "Subir",
+    "bpm": 123.0,
+    "duracion": 194.79510204081632,
+    "tonalidad": "Sol#"
+   }
+  ]
+ },
+ {
+  "numero": 4,
+  "titulo": "Llamas",
+  "slug": "Disco_4_Llamas",
+  "ambito": "127-150 BPM",
+  "subtitulo": "Cuando el corazon se enciende",
+  "tracklist": [
+   {
+    "n": 1,
+    "archivo": "Pendientes/la-unica.mp3",
+    "nombre": "01 - La unica.mp3",
+    "titulo": "La unica",
+    "bpm": 129.2,
+    "duracion": 186.64489795918368,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 2,
+    "archivo": "Oportunidad.mp3",
+    "nombre": "02 - Oportunidad.mp3",
+    "titulo": "Oportunidad",
+    "bpm": 129.2,
+    "duracion": 242.76,
+    "tonalidad": "La#"
+   },
+   {
+    "n": 3,
+    "archivo": "sombras.mp3",
+    "nombre": "03 - Sombras.mp3",
+    "titulo": "Sombras",
+    "bpm": 129.2,
+    "duracion": 247.584,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 4,
+    "archivo": "Lluvia Por Dentro.mp3",
+    "nombre": "04 - Lluvia Por Dentro.mp3",
+    "titulo": "Lluvia Por Dentro",
+    "bpm": 129.2,
+    "duracion": 302.16,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 5,
+    "archivo": "En tu amor otra vez.mp3",
+    "nombre": "05 - En tu amor otra vez.mp3",
+    "titulo": "En tu amor otra vez",
+    "bpm": 129.2,
+    "duracion": 201.72,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 6,
+    "archivo": "Pendientes/dilo-ahora.mp3",
+    "nombre": "06 - Dilo ahora.mp3",
+    "titulo": "Dilo ahora",
+    "bpm": 129.2,
+    "duracion": 285.20489795918365,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 7,
+    "archivo": "Toma este Amor.mp3",
+    "nombre": "07 - Toma este Amor.mp3",
+    "titulo": "Toma este Amor",
+    "bpm": 129.2,
+    "duracion": 259.512,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 8,
+    "archivo": "Nuestro Secreto.mp3",
+    "nombre": "08 - Nuestro Secreto.mp3",
+    "titulo": "Nuestro Secreto",
+    "bpm": 136.0,
+    "duracion": 271.032,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 9,
+    "archivo": "Nuestro Secreto (2).mp3",
+    "nombre": "09 - Nuestro Secreto (2).mp3",
+    "titulo": "Nuestro Secreto (version 2)",
+    "bpm": 136.0,
+    "duracion": 249.792,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 10,
+    "archivo": "Espejos Rotos.mp3",
+    "nombre": "10 - Espejos Rotos.mp3",
+    "titulo": "Espejos Rotos",
+    "bpm": 136.0,
+    "duracion": 225.0,
+    "tonalidad": "La#"
+   },
+   {
+    "n": 11,
+    "archivo": "Luz Quebrada.mp3",
+    "nombre": "11 - Luz Quebrada.mp3",
+    "titulo": "Luz Quebrada",
+    "bpm": 136.0,
+    "duracion": 257.544,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 12,
+    "archivo": "Dejar ir.mp3",
+    "nombre": "12 - Dejar ir.mp3",
+    "titulo": "Dejar ir",
+    "bpm": 143.6,
+    "duracion": 271.92,
+    "tonalidad": "Fa"
+   },
+   {
+    "n": 13,
+    "archivo": "Tan Lejos.mp3",
+    "nombre": "13 - Tan Lejos.mp3",
+    "titulo": "Tan Lejos",
+    "bpm": 143.6,
+    "duracion": 230.112,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 14,
+    "archivo": "Raíz.mp3",
+    "nombre": "14 - Raíz.mp3",
+    "titulo": "Raíz",
+    "bpm": 143.6,
+    "duracion": 415.032,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 15,
+    "archivo": "No me falles.mp3",
+    "nombre": "15 - No me falles.mp3",
+    "titulo": "No me falles",
+    "bpm": 143.6,
+    "duracion": 225.912,
+    "tonalidad": "Re#"
+   }
+  ]
+ },
+ {
+  "numero": 5,
+  "titulo": "Euforia",
+  "slug": "Disco_5_Euforia",
+  "ambito": "mas de 150 BPM",
+  "subtitulo": "Ritmos que levantan el animo",
+  "tracklist": [
+   {
+    "n": 1,
+    "archivo": "Intentar.mp3",
+    "nombre": "01 - Intentar.mp3",
+    "titulo": "Intentar",
+    "bpm": 152.0,
+    "duracion": 279.744,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 2,
+    "archivo": "Girando.mp3",
+    "nombre": "02 - Girando.mp3",
+    "titulo": "Girando",
+    "bpm": 152.0,
+    "duracion": 232.44,
+    "tonalidad": "Do"
+   },
+   {
+    "n": 3,
+    "archivo": "Él Me Toca.mp3",
+    "nombre": "03 - Él Me Toca.mp3",
+    "titulo": "Él Me Toca",
+    "bpm": 152.0,
+    "duracion": 209.784,
+    "tonalidad": "Re#"
+   },
+   {
+    "n": 4,
+    "archivo": "Pendientes/los-dias-son-numeros.mp3",
+    "nombre": "04 - Los dias son numeros.mp3",
+    "titulo": "Los dias son numeros",
+    "bpm": 152.0,
+    "duracion": 324.2057142857143,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 5,
+    "archivo": "Cómo voy a dormir.mp3",
+    "nombre": "05 - Cómo voy a dormir.mp3",
+    "titulo": "Cómo voy a dormir",
+    "bpm": 152.0,
+    "duracion": 214.992,
+    "tonalidad": "La#"
+   },
+   {
+    "n": 6,
+    "archivo": "Susurros Nocturnos.mp3",
+    "nombre": "06 - Susurros Nocturnos.mp3",
+    "titulo": "Susurros Nocturnos",
+    "bpm": 161.5,
+    "duracion": 260.4669387755102,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 7,
+    "archivo": "susurros-nocturnos.mp3",
+    "nombre": "07 - Susurros nocturnos.mp3",
+    "titulo": "Susurros nocturnos",
+    "bpm": 161.5,
+    "duracion": 260.4669387755102,
+    "tonalidad": "Sol"
+   },
+   {
+    "n": 8,
+    "archivo": "tu.mp3",
+    "nombre": "08 - Tu.mp3",
+    "titulo": "Tu",
+    "bpm": 161.5,
+    "duracion": 284.592,
+    "tonalidad": "Sol#"
+   },
+   {
+    "n": 9,
+    "archivo": "Ana.mp3",
+    "nombre": "09 - Ana.mp3",
+    "titulo": "Ana",
+    "bpm": 161.5,
+    "duracion": 265.224,
+    "tonalidad": "Fa#"
+   },
+   {
+    "n": 10,
+    "archivo": "Nuestro Amor.mp3",
+    "nombre": "10 - Nuestro Amor.mp3",
+    "titulo": "Nuestro Amor",
+    "bpm": 172.3,
+    "duracion": 279.624,
+    "tonalidad": "Re"
+   },
+   {
+    "n": 11,
+    "archivo": "Buenos Momentos.mp3",
+    "nombre": "11 - Buenos Momentos.mp3",
+    "titulo": "Buenos Momentos",
+    "bpm": 172.3,
+    "duracion": 243.48,
+    "tonalidad": "Sol#"
+   },
+   {
+    "n": 12,
+    "archivo": "Pendientes/mundo-cruel.mp3",
+    "nombre": "12 - Mundo cruel.mp3",
+    "titulo": "Mundo cruel",
+    "bpm": 172.3,
+    "duracion": 217.5477551020408,
+    "tonalidad": "La"
+   }
+  ]
+ }
+]

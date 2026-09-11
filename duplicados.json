@@ -1,0 +1,1115 @@
+[
+ {
+  "corr": 1.0,
+  "a": "Susurros Nocturnos.mp3",
+  "b": "susurros-nocturnos.mp3",
+  "dur_a": 260,
+  "dur_b": 260
+ },
+ {
+  "corr": 1.0,
+  "a": "Luna en la ciudad (2).mp3",
+  "b": "Luna en la ciudad.mp3",
+  "dur_a": 277,
+  "dur_b": 277
+ },
+ {
+  "corr": 0.9993,
+  "a": "Nuestro Secreto (2).mp3",
+  "b": "Nuestro Secreto.mp3",
+  "dur_a": 250,
+  "dur_b": 271
+ },
+ {
+  "corr": 0.9976,
+  "a": "Pendientes/lo-que-pides.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 210,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9971,
+  "a": "Esclavo.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 240,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.997,
+  "a": "En tu amor otra vez.mp3",
+  "b": "Oportunidad.mp3",
+  "dur_a": 202,
+  "dur_b": 243
+ },
+ {
+  "corr": 0.9968,
+  "a": "La Razon.mp3",
+  "b": "Noche con una desconocida.mp3",
+  "dur_a": 310,
+  "dur_b": 270
+ },
+ {
+  "corr": 0.9966,
+  "a": "Mientras el mundo cae.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 265,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9964,
+  "a": "Dile.mp3",
+  "b": "Mientras el mundo cae.mp3",
+  "dur_a": 255,
+  "dur_b": 265
+ },
+ {
+  "corr": 0.9963,
+  "a": "Oportunidad.mp3",
+  "b": "sombras.mp3",
+  "dur_a": 243,
+  "dur_b": 248
+ },
+ {
+  "corr": 0.9958,
+  "a": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 203,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9958,
+  "a": "Generación Perdida.mp3",
+  "b": "No pienso en ti.mp3",
+  "dur_a": 205,
+  "dur_b": 213
+ },
+ {
+  "corr": 0.9957,
+  "a": "Cómo voy a dormir.mp3",
+  "b": "Girando.mp3",
+  "dur_a": 215,
+  "dur_b": 232
+ },
+ {
+  "corr": 0.9956,
+  "a": "Noche con una desconocida.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 270,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9955,
+  "a": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 203,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9954,
+  "a": "Generación Perdida.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 205,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9954,
+  "a": "Dejar atrás.mp3",
+  "b": "Noche con una desconocida.mp3",
+  "dur_a": 238,
+  "dur_b": 270
+ },
+ {
+  "corr": 0.9952,
+  "a": "Dile.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 255,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9949,
+  "a": "Esclavo.mp3",
+  "b": "Mientras el mundo cae.mp3",
+  "dur_a": 240,
+  "dur_b": 265
+ },
+ {
+  "corr": 0.9947,
+  "a": "Luna en la ciudad.mp3",
+  "b": "Radio & Ruta.mp3",
+  "dur_a": 277,
+  "dur_b": 284
+ },
+ {
+  "corr": 0.9947,
+  "a": "Luna en la ciudad (2).mp3",
+  "b": "Radio & Ruta.mp3",
+  "dur_a": 277,
+  "dur_b": 284
+ },
+ {
+  "corr": 0.9946,
+  "a": "Donde.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 216,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9946,
+  "a": "Dejar atrás.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 238,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9944,
+  "a": "Donde.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 216,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9944,
+  "a": "Dime que estarás.mp3",
+  "b": "perdido.mp3",
+  "dur_a": 233,
+  "dur_b": 211
+ },
+ {
+  "corr": 0.9943,
+  "a": "Ochentas (2).mp3",
+  "b": "Ochentas.mp3",
+  "dur_a": 276,
+  "dur_b": 294
+ },
+ {
+  "corr": 0.9943,
+  "a": "No me falles.mp3",
+  "b": "Tan Lejos.mp3",
+  "dur_a": 226,
+  "dur_b": 230
+ },
+ {
+  "corr": 0.9942,
+  "a": "Pendientes/escucho-tu-voz.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 216,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.9941,
+  "a": "No te Rindas.mp3",
+  "b": "senales.mp3",
+  "dur_a": 336,
+  "dur_b": 318
+ },
+ {
+  "corr": 0.9937,
+  "a": "El rumor.mp3",
+  "b": "La Razon.mp3",
+  "dur_a": 344,
+  "dur_b": 310
+ },
+ {
+  "corr": 0.9935,
+  "a": "Donde.mp3",
+  "b": "No pienso en ti.mp3",
+  "dur_a": 216,
+  "dur_b": 213
+ },
+ {
+  "corr": 0.9934,
+  "a": "No te Rindas.mp3",
+  "b": "Pendientes/hombre-del-ayer.mp3",
+  "dur_a": 336,
+  "dur_b": 330
+ },
+ {
+  "corr": 0.9934,
+  "a": "Buenos Momentos.mp3",
+  "b": "Nuestro Amor.mp3",
+  "dur_a": 243,
+  "dur_b": 280
+ },
+ {
+  "corr": 0.9933,
+  "a": "Pendientes/lo-que-pides.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 210,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.9932,
+  "a": "Pendientes/escucho-tu-voz.mp3",
+  "b": "Pendientes/lo-que-pides.mp3",
+  "dur_a": 216,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.9932,
+  "a": "Mientras el mundo cae.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 265,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9931,
+  "a": "Rara fiesta.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 220,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9931,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 245,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9931,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 245,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9931,
+  "a": "La Razon.mp3",
+  "b": "Te Necesito Ahora.mp3",
+  "dur_a": 310,
+  "dur_b": 306
+ },
+ {
+  "corr": 0.9931,
+  "a": "Donde.mp3",
+  "b": "Pendientes/donde-falle.mp3",
+  "dur_a": 216,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.993,
+  "a": "No pienso en ti.mp3",
+  "b": "Pendientes/nada-nos-aparta.mp3",
+  "dur_a": 213,
+  "dur_b": 218
+ },
+ {
+  "corr": 0.9929,
+  "a": "Tren Peligroso.mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 234,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9929,
+  "a": "Espejos Rotos.mp3",
+  "b": "Nuestro Secreto (2).mp3",
+  "dur_a": 225,
+  "dur_b": 250
+ },
+ {
+  "corr": 0.9928,
+  "a": "Pendientes/quiero-saber.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 229,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9928,
+  "a": "Ochentas (2).mp3",
+  "b": "Ochentas (3).mp3",
+  "dur_a": 276,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9928,
+  "a": "Domingo.mp3",
+  "b": "Imaginación.mp3",
+  "dur_a": 241,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9927,
+  "a": "Mientras el mundo cae.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 265,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9926,
+  "a": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "b": "Pendientes/lo-que-pides.mp3",
+  "dur_a": 203,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.9925,
+  "a": "Luz Quebrada.mp3",
+  "b": "Nuestro Secreto (2).mp3",
+  "dur_a": 258,
+  "dur_b": 250
+ },
+ {
+  "corr": 0.9922,
+  "a": "No pienso en ti.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 213,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9922,
+  "a": "Esclavo.mp3",
+  "b": "Noche con una desconocida.mp3",
+  "dur_a": 240,
+  "dur_b": 270
+ },
+ {
+  "corr": 0.9922,
+  "a": "Domingo.mp3",
+  "b": "Pendientes/escucho-tu-voz.mp3",
+  "dur_a": 241,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.9919,
+  "a": "Pendientes/lo-que-pides.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 210,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9919,
+  "a": "Ochentas (2).mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 276,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9919,
+  "a": "Luz en el cielo.mp3",
+  "b": "Ochentas (3).mp3",
+  "dur_a": 250,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9918,
+  "a": "Dile.mp3",
+  "b": "No pienso en ti.mp3",
+  "dur_a": 255,
+  "dur_b": 213
+ },
+ {
+  "corr": 0.9917,
+  "a": "Pendientes/quiero-saber.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 229,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9917,
+  "a": "Ochentas (2).mp3",
+  "b": "Tren Peligroso.mp3",
+  "dur_a": 276,
+  "dur_b": 234
+ },
+ {
+  "corr": 0.9916,
+  "a": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 203,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.9916,
+  "a": "Luz Quebrada.mp3",
+  "b": "Nuestro Secreto.mp3",
+  "dur_a": 258,
+  "dur_b": 271
+ },
+ {
+  "corr": 0.9915,
+  "a": "Intentar.mp3",
+  "b": "Pendientes/los-dias-son-numeros.mp3",
+  "dur_a": 280,
+  "dur_b": 324
+ },
+ {
+  "corr": 0.9913,
+  "a": "Pendientes/escucho-tu-voz.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 216,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9912,
+  "a": "Espejos Rotos.mp3",
+  "b": "Luz Quebrada.mp3",
+  "dur_a": 225,
+  "dur_b": 258
+ },
+ {
+  "corr": 0.9912,
+  "a": "Atrapado.mp3",
+  "b": "subir.mp3",
+  "dur_a": 185,
+  "dur_b": 195
+ },
+ {
+  "corr": 0.9911,
+  "a": "Toma este Amor.mp3",
+  "b": "sombras.mp3",
+  "dur_a": 260,
+  "dur_b": 248
+ },
+ {
+  "corr": 0.9911,
+  "a": "Dejar atrás.mp3",
+  "b": "Donde.mp3",
+  "dur_a": 238,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.991,
+  "a": "Dejar atrás.mp3",
+  "b": "Esclavo.mp3",
+  "dur_a": 238,
+  "dur_b": 240
+ },
+ {
+  "corr": 0.9909,
+  "a": "Donde.mp3",
+  "b": "Esclavo.mp3",
+  "dur_a": 216,
+  "dur_b": 240
+ },
+ {
+  "corr": 0.9908,
+  "a": "Luz en el cielo.mp3",
+  "b": "Tren Peligroso.mp3",
+  "dur_a": 250,
+  "dur_b": 234
+ },
+ {
+  "corr": 0.9908,
+  "a": "El rumor.mp3",
+  "b": "Te Necesito Ahora.mp3",
+  "dur_a": 344,
+  "dur_b": 306
+ },
+ {
+  "corr": 0.9908,
+  "a": "Dile.mp3",
+  "b": "Pendientes/nada-nos-aparta.mp3",
+  "dur_a": 255,
+  "dur_b": 218
+ },
+ {
+  "corr": 0.9908,
+  "a": "Dejar atrás.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 238,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9907,
+  "a": "Dejar atrás.mp3",
+  "b": "Pendientes/donde-falle.mp3",
+  "dur_a": 238,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9906,
+  "a": "Dime que estarás.mp3",
+  "b": "Luz en el cielo.mp3",
+  "dur_a": 233,
+  "dur_b": 250
+ },
+ {
+  "corr": 0.9905,
+  "a": "Esclavo.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 240,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9904,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "dur_a": 245,
+  "dur_b": 203
+ },
+ {
+  "corr": 0.9904,
+  "a": "Mientras el mundo cae.mp3",
+  "b": "Noche con una desconocida.mp3",
+  "dur_a": 265,
+  "dur_b": 270
+ },
+ {
+  "corr": 0.9904,
+  "a": "El rumor.mp3",
+  "b": "La Razon (2).mp3",
+  "dur_a": 344,
+  "dur_b": 356
+ },
+ {
+  "corr": 0.9904,
+  "a": "Dile.mp3",
+  "b": "Donde.mp3",
+  "dur_a": 255,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.9904,
+  "a": "Buenos Momentos.mp3",
+  "b": "Pendientes/mundo-cruel.mp3",
+  "dur_a": 243,
+  "dur_b": 218
+ },
+ {
+  "corr": 0.9903,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Pendientes/lo-que-pides.mp3",
+  "dur_a": 245,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.9901,
+  "a": "Pendientes/escucho-tu-voz.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 216,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.99,
+  "a": "Duele Amarte.mp3",
+  "b": "subir.mp3",
+  "dur_a": 239,
+  "dur_b": 195
+ },
+ {
+  "corr": 0.99,
+  "a": "Dejar atrás.mp3",
+  "b": "Dile.mp3",
+  "dur_a": 238,
+  "dur_b": 255
+ },
+ {
+  "corr": 0.9898,
+  "a": "Corazón De Piedra.mp3",
+  "b": "Una noche inolvidable.mp3",
+  "dur_a": 293,
+  "dur_b": 335
+ },
+ {
+  "corr": 0.9892,
+  "a": "Más allá.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 266,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9892,
+  "a": "Lluvia Por Dentro.mp3",
+  "b": "Toma este Amor.mp3",
+  "dur_a": 302,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9891,
+  "a": "Dejar atrás.mp3",
+  "b": "No pienso en ti.mp3",
+  "dur_a": 238,
+  "dur_b": 213
+ },
+ {
+  "corr": 0.989,
+  "a": "Ana.mp3",
+  "b": "tu.mp3",
+  "dur_a": 265,
+  "dur_b": 285
+ },
+ {
+  "corr": 0.9889,
+  "a": "Ochentas (3).mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 260,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9888,
+  "a": "Imaginación.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 257,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9887,
+  "a": "Pendientes/nada-nos-aparta.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 218,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9887,
+  "a": "Oportunidad.mp3",
+  "b": "Toma este Amor.mp3",
+  "dur_a": 243,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9886,
+  "a": "Relajate.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 257,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9885,
+  "a": "Pendientes/donde-falle.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 217,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9883,
+  "a": "Imaginación.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 257,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9882,
+  "a": "Domingo.mp3",
+  "b": "Pendientes/lo-que-pides.mp3",
+  "dur_a": 241,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.988,
+  "a": "No pienso en ti.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 213,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.988,
+  "a": "Luz en el cielo.mp3",
+  "b": "Ochentas (2).mp3",
+  "dur_a": 250,
+  "dur_b": 276
+ },
+ {
+  "corr": 0.988,
+  "a": "Girando.mp3",
+  "b": "Él Me Toca.mp3",
+  "dur_a": 232,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.988,
+  "a": "Dile.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 255,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9879,
+  "a": "Relajate.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 257,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9879,
+  "a": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "b": "Pendientes/escucho-tu-voz.mp3",
+  "dur_a": 203,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.9879,
+  "a": "Pendientes/dilo-ahora.mp3",
+  "b": "sombras.mp3",
+  "dur_a": 285,
+  "dur_b": 248
+ },
+ {
+  "corr": 0.9879,
+  "a": "Donde.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 216,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9879,
+  "a": "Dejar ir.mp3",
+  "b": "Tan Lejos.mp3",
+  "dur_a": 272,
+  "dur_b": 230
+ },
+ {
+  "corr": 0.9878,
+  "a": "Lluvia Por Dentro.mp3",
+  "b": "Pendientes/dilo-ahora.mp3",
+  "dur_a": 302,
+  "dur_b": 285
+ },
+ {
+  "corr": 0.9877,
+  "a": "Domingo.mp3",
+  "b": "Rara fiesta.mp3",
+  "dur_a": 241,
+  "dur_b": 220
+ },
+ {
+  "corr": 0.9877,
+  "a": "Buscando un amor.mp3",
+  "b": "perdoname.mp3",
+  "dur_a": 208,
+  "dur_b": 242
+ },
+ {
+  "corr": 0.9875,
+  "a": "Oportunidad.mp3",
+  "b": "Pendientes/dilo-ahora.mp3",
+  "dur_a": 243,
+  "dur_b": 285
+ },
+ {
+  "corr": 0.9875,
+  "a": "Generación Perdida.mp3",
+  "b": "Pendientes/nada-nos-aparta.mp3",
+  "dur_a": 205,
+  "dur_b": 218
+ },
+ {
+  "corr": 0.9874,
+  "a": "Domingo.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 241,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.9873,
+  "a": "Pendientes/donde-falle.mp3",
+  "b": "Solo un momento.mp3",
+  "dur_a": 217,
+  "dur_b": 239
+ },
+ {
+  "corr": 0.9873,
+  "a": "Domingo.mp3",
+  "b": "Secretos al Hablar.mp3",
+  "dur_a": 241,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9872,
+  "a": "Dejar atrás.mp3",
+  "b": "Mientras el mundo cae.mp3",
+  "dur_a": 238,
+  "dur_b": 265
+ },
+ {
+  "corr": 0.9868,
+  "a": "No pienso en ti.mp3",
+  "b": "Pendientes/donde-falle.mp3",
+  "dur_a": 213,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9867,
+  "a": "Mientras el mundo cae.mp3",
+  "b": "Te Necesito Ahora.mp3",
+  "dur_a": 265,
+  "dur_b": 306
+ },
+ {
+  "corr": 0.9864,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 245,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.9864,
+  "a": "Imaginación.mp3",
+  "b": "Pendientes/escucho-tu-voz.mp3",
+  "dur_a": 257,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.9863,
+  "a": "Ochentas (3).mp3",
+  "b": "Tren Peligroso.mp3",
+  "dur_a": 260,
+  "dur_b": 234
+ },
+ {
+  "corr": 0.9863,
+  "a": "Luz en el cielo.mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 250,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9862,
+  "a": "Imaginación.mp3",
+  "b": "Pendientes/quiero-saber.mp3",
+  "dur_a": 257,
+  "dur_b": 229
+ },
+ {
+  "corr": 0.986,
+  "a": "Domingo.mp3",
+  "b": "Pendientes/el-amor-lo-cambia-todo.mp3",
+  "dur_a": 241,
+  "dur_b": 203
+ },
+ {
+  "corr": 0.9859,
+  "a": "Ochentas.mp3",
+  "b": "Pendientes/sigo-en-vos.mp3",
+  "dur_a": 294,
+  "dur_b": 293
+ },
+ {
+  "corr": 0.9858,
+  "a": "Ochentas (3).mp3",
+  "b": "Ochentas.mp3",
+  "dur_a": 260,
+  "dur_b": 294
+ },
+ {
+  "corr": 0.9856,
+  "a": "Buscando un amor.mp3",
+  "b": "No pienso en ti.mp3",
+  "dur_a": 208,
+  "dur_b": 213
+ },
+ {
+  "corr": 0.9854,
+  "a": "Luz en el cielo.mp3",
+  "b": "perdido.mp3",
+  "dur_a": 250,
+  "dur_b": 211
+ },
+ {
+  "corr": 0.9852,
+  "a": "Dime que estarás.mp3",
+  "b": "Tren Peligroso.mp3",
+  "dur_a": 233,
+  "dur_b": 234
+ },
+ {
+  "corr": 0.9851,
+  "a": "Ochentas (2).mp3",
+  "b": "Pendientes/sigo-en-vos.mp3",
+  "dur_a": 276,
+  "dur_b": 293
+ },
+ {
+  "corr": 0.985,
+  "a": "Noche con una desconocida.mp3",
+  "b": "Te Necesito Ahora.mp3",
+  "dur_a": 270,
+  "dur_b": 306
+ },
+ {
+  "corr": 0.9847,
+  "a": "Dile.mp3",
+  "b": "Más allá.mp3",
+  "dur_a": 255,
+  "dur_b": 266
+ },
+ {
+  "corr": 0.9846,
+  "a": "Buscando un amor.mp3",
+  "b": "Pendientes/nada-nos-aparta.mp3",
+  "dur_a": 208,
+  "dur_b": 218
+ },
+ {
+  "corr": 0.9842,
+  "a": "Pendientes/hombre-del-ayer.mp3",
+  "b": "senales.mp3",
+  "dur_a": 330,
+  "dur_b": 318
+ },
+ {
+  "corr": 0.9841,
+  "a": "Pendientes/dame-esta-noche.mp3",
+  "b": "Pendientes/escucho-tu-voz.mp3",
+  "dur_a": 245,
+  "dur_b": 216
+ },
+ {
+  "corr": 0.9836,
+  "a": "Buscando un amor.mp3",
+  "b": "Generación Perdida.mp3",
+  "dur_a": 208,
+  "dur_b": 205
+ },
+ {
+  "corr": 0.9832,
+  "a": "Cómo voy a dormir.mp3",
+  "b": "Él Me Toca.mp3",
+  "dur_a": 215,
+  "dur_b": 210
+ },
+ {
+  "corr": 0.983,
+  "a": "Tren Peligroso.mp3",
+  "b": "perdido.mp3",
+  "dur_a": 234,
+  "dur_b": 211
+ },
+ {
+  "corr": 0.9826,
+  "a": "Dime que estarás.mp3",
+  "b": "Ochentas (3).mp3",
+  "dur_a": 233,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9822,
+  "a": "Dile.mp3",
+  "b": "Pendientes/donde-falle.mp3",
+  "dur_a": 255,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9817,
+  "a": "Luz en el cielo.mp3",
+  "b": "Ochentas.mp3",
+  "dur_a": 250,
+  "dur_b": 294
+ },
+ {
+  "corr": 0.9815,
+  "a": "Dime que estarás.mp3",
+  "b": "Ochentas (2).mp3",
+  "dur_a": 233,
+  "dur_b": 276
+ },
+ {
+  "corr": 0.9807,
+  "a": "Esclavo.mp3",
+  "b": "Pendientes/donde-falle.mp3",
+  "dur_a": 240,
+  "dur_b": 217
+ },
+ {
+  "corr": 0.9804,
+  "a": "Imaginación.mp3",
+  "b": "Pendientes/dame-esta-noche.mp3",
+  "dur_a": 257,
+  "dur_b": 245
+ },
+ {
+  "corr": 0.9802,
+  "a": "En tu amor otra vez.mp3",
+  "b": "Pendientes/la-unica.mp3",
+  "dur_a": 202,
+  "dur_b": 187
+ },
+ {
+  "corr": 0.9781,
+  "a": "Corazón De Piedra.mp3",
+  "b": "Imaginación.mp3",
+  "dur_a": 293,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9778,
+  "a": "Noche con una desconocida.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 270,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9761,
+  "a": "Domingo.mp3",
+  "b": "Pendientes/dame-esta-noche.mp3",
+  "dur_a": 241,
+  "dur_b": 245
+ },
+ {
+  "corr": 0.9755,
+  "a": "Dejar atrás.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 238,
+  "dur_b": 257
+ },
+ {
+  "corr": 0.9744,
+  "a": "Ana.mp3",
+  "b": "susurros-nocturnos.mp3",
+  "dur_a": 265,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9744,
+  "a": "Ana.mp3",
+  "b": "Susurros Nocturnos.mp3",
+  "dur_a": 265,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.9734,
+  "a": "perdido.mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 211,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9719,
+  "a": "Luz en el cielo.mp3",
+  "b": "Pendientes/sigo-en-vos.mp3",
+  "dur_a": 250,
+  "dur_b": 293
+ },
+ {
+  "corr": 0.9714,
+  "a": "Dime que estarás.mp3",
+  "b": "ultimo-tren.mp3",
+  "dur_a": 233,
+  "dur_b": 235
+ },
+ {
+  "corr": 0.9703,
+  "a": "susurros-nocturnos.mp3",
+  "b": "tu.mp3",
+  "dur_a": 260,
+  "dur_b": 285
+ },
+ {
+  "corr": 0.9703,
+  "a": "Susurros Nocturnos.mp3",
+  "b": "tu.mp3",
+  "dur_a": 260,
+  "dur_b": 285
+ },
+ {
+  "corr": 0.9703,
+  "a": "Pendientes/dilo-ahora.mp3",
+  "b": "Toma este Amor.mp3",
+  "dur_a": 285,
+  "dur_b": 260
+ },
+ {
+  "corr": 0.968,
+  "a": "Ochentas (3).mp3",
+  "b": "Pendientes/sigo-en-vos.mp3",
+  "dur_a": 260,
+  "dur_b": 293
+ },
+ {
+  "corr": 0.9674,
+  "a": "Pendientes/donde-falle.mp3",
+  "b": "Relajate.mp3",
+  "dur_a": 217,
+  "dur_b": 257
+ }
+]

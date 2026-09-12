@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getDiscos, getDisco, fmtTime } from '../../../lib/data';
+import DiscoPlayer from '../../../components/DiscoPlayer';
 import { COVER_VERSION } from '../../../lib/version';
 
 export function generateStaticParams() {
@@ -33,21 +34,7 @@ export default async function DiscoPage({ params }) {
 
       <section className="section" style={{ paddingTop: 0 }}>
         <p className="section-lbl">TRACKLIST</p>
-        <ol className="page-disco-tracks">
-          {d.tracklist.map((t) => (
-            <li key={t.n}>
-              <div className="t-row">
-                <span className="t-n">{String(t.n).padStart(2, '0')}</span>
-                <span className="t-t">{t.titulo}</span>
-                <span className="t-bpm">{t.bpm ? `${t.bpm.toFixed(0)} BPM` : ''}</span>
-                <span className="t-d">{fmtTime(t.duracion)}</span>
-              </div>
-              {t.audio && (
-                <audio className="t-audio" controls preload="none" src={t.audio} />
-              )}
-            </li>
-          ))}
-        </ol>
+        <DiscoPlayer tracks={d.tracklist} />
         <div style={{ marginTop: 26, fontFamily: 'Agency', letterSpacing: '0.15em' }}>
           <Link href="/musica" style={{ color: 'var(--gold)' }}>← Volver al archivo</Link>
         </div>

@@ -112,12 +112,12 @@ export default function Home() {
           <p className="quote">«</p>
           <p>
             Sandro Saavedra escribe, compone y arregla. «Canciones de una ciudad» reúne setenta y
-            nueve canciones de la balada nocturna a la euforia del final de fiesta.
+            cuatro canciones de la balada nocturna a la euforia del final de fiesta.
           </p>
           <p>
-            Cinco discos — Medianoche, Ciudad de Neon, Ochentas, Llamas y Euforia — trazados como
-            una sola noche en la ciudad. Cada volumen tiene su portada, su tracklist y su propio
-            estado de ánimo.
+            Seis discos — Medianoche, Ciudad de Neon, Ochentas, Llamas, Euforia y Directo —
+            trazados como una sola noche en la ciudad. Cada volumen tiene su portada, su tracklist
+            y su propio estado de ánimo.
           </p>
         </div>
       </section>

@@ -36,10 +36,15 @@ export default async function DiscoPage({ params }) {
         <ol className="page-disco-tracks">
           {d.tracklist.map((t) => (
             <li key={t.n}>
-              <span className="t-n">{String(t.n).padStart(2, '0')}</span>
-              <span className="t-t">{t.titulo}</span>
-              <span className="t-bpm">{t.bpm ? `${t.bpm.toFixed(0)} BPM` : ''}</span>
-              <span className="t-d">{fmtTime(t.duracion)}</span>
+              <div className="t-row">
+                <span className="t-n">{String(t.n).padStart(2, '0')}</span>
+                <span className="t-t">{t.titulo}</span>
+                <span className="t-bpm">{t.bpm ? `${t.bpm.toFixed(0)} BPM` : ''}</span>
+                <span className="t-d">{fmtTime(t.duracion)}</span>
+              </div>
+              {t.audio && (
+                <audio className="t-audio" controls preload="none" src={t.audio} />
+              )}
             </li>
           ))}
         </ol>

@@ -13,7 +13,8 @@
     "titulo": "Sin aliento",
     "bpm": 78.3,
     "duracion": 237.744,
-    "tonalidad": "Sol#"
+    "tonalidad": "Sol#",
+    "audio": "/music/Disco_1_Medianoche/01.mp3"
    },
    {
     "n": 2,
@@ -22,7 +23,8 @@
     "titulo": "Esclavo",
     "bpm": 92.3,
     "duracion": 239.784,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_1_Medianoche/02.mp3"
    },
    {
     "n": 3,
@@ -31,7 +33,8 @@
     "titulo": "Solo un momento",
     "bpm": 92.3,
     "duracion": 238.824,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_1_Medianoche/03.mp3"
    },
    {
     "n": 4,
@@ -40,7 +43,8 @@
     "titulo": "La Razon",
     "bpm": 92.3,
     "duracion": 309.984,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_1_Medianoche/04.mp3"
    },
    {
     "n": 5,
@@ -49,7 +53,8 @@
     "titulo": "El rumor",
     "bpm": 92.3,
     "duracion": 344.352,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_1_Medianoche/05.mp3"
    },
    {
     "n": 6,
@@ -58,7 +63,8 @@
     "titulo": "La Razon (version 2)",
     "bpm": 92.3,
     "duracion": 355.992,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_1_Medianoche/06.mp3"
    },
    {
     "n": 7,
@@ -67,7 +73,8 @@
     "titulo": "Te Necesito Ahora",
     "bpm": 92.3,
     "duracion": 305.712,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_1_Medianoche/07.mp3"
    },
    {
     "n": 8,
@@ -76,7 +83,8 @@
     "titulo": "Noche con una desconocida",
     "bpm": 92.3,
     "duracion": 270.312,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_1_Medianoche/08.mp3"
    },
    {
     "n": 9,
@@ -85,7 +93,8 @@
     "titulo": "Donde",
     "bpm": 95.7,
     "duracion": 215.952,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_1_Medianoche/09.mp3"
    },
    {
     "n": 10,
@@ -94,7 +103,8 @@
     "titulo": "Relajate",
     "bpm": 95.7,
     "duracion": 257.424,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_1_Medianoche/10.mp3"
    },
    {
     "n": 11,
@@ -103,7 +113,8 @@
     "titulo": "Dejar atrás",
     "bpm": 95.7,
     "duracion": 237.624,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_1_Medianoche/11.mp3"
    },
    {
     "n": 12,
@@ -112,7 +123,8 @@
     "titulo": "Mientras el mundo cae",
     "bpm": 95.7,
     "duracion": 264.96,
-    "tonalidad": "La#"
+    "tonalidad": "La#",
+    "audio": "/music/Disco_1_Medianoche/12.mp3"
    },
    {
     "n": 13,
@@ -121,7 +133,8 @@
     "titulo": "Donde falle",
     "bpm": 95.7,
     "duracion": 216.895,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_1_Medianoche/13.mp3"
    },
    {
     "n": 14,
@@ -130,7 +143,8 @@
     "titulo": "No pienso en ti",
     "bpm": 99.4,
     "duracion": 212.832,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_1_Medianoche/14.mp3"
    },
    {
     "n": 15,
@@ -139,7 +153,8 @@
     "titulo": "No te Rindas",
     "bpm": 99.4,
     "duracion": 335.88,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_1_Medianoche/15.mp3"
    },
    {
     "n": 16,
@@ -148,7 +163,8 @@
     "titulo": "Dile",
     "bpm": 99.4,
     "duracion": 255.024,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_1_Medianoche/16.mp3"
    },
    {
     "n": 17,
@@ -157,7 +173,8 @@
     "titulo": "Hombre del ayer",
     "bpm": 99.4,
     "duracion": 330.136,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_1_Medianoche/17.mp3"
    },
    {
     "n": 18,
@@ -166,7 +183,8 @@
     "titulo": "Perdoname",
     "bpm": 99.4,
     "duracion": 241.763,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_1_Medianoche/18.mp3"
    }
   ]
  },
@@ -184,7 +202,8 @@
     "titulo": "Senales",
     "bpm": 103.4,
     "duracion": 317.544,
-    "tonalidad": "Do#"
+    "tonalidad": "Do#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/01.mp3"
    },
    {
     "n": 2,
@@ -193,7 +212,8 @@
     "titulo": "Más allá",
     "bpm": 103.4,
     "duracion": 265.92,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/02.mp3"
    },
    {
     "n": 3,
@@ -202,7 +222,8 @@
     "titulo": "Buscando un amor",
     "bpm": 103.4,
     "duracion": 208.032,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/03.mp3"
    },
    {
     "n": 4,
@@ -211,7 +232,8 @@
     "titulo": "Nada nos aparta",
     "bpm": 103.4,
     "duracion": 217.966,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/04.mp3"
    },
    {
     "n": 5,
@@ -220,7 +242,8 @@
     "titulo": "Generación Perdida",
     "bpm": 103.4,
     "duracion": 204.672,
-    "tonalidad": "Mi"
+    "tonalidad": "Mi",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/05.mp3"
    },
    {
     "n": 6,
@@ -229,7 +252,8 @@
     "titulo": "Radio & Ruta",
     "bpm": 107.7,
     "duracion": 283.512,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/06.mp3"
    },
    {
     "n": 7,
@@ -238,7 +262,8 @@
     "titulo": "Luna en la ciudad",
     "bpm": 107.7,
     "duracion": 276.504,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/07.mp3"
    },
    {
     "n": 8,
@@ -247,7 +272,8 @@
     "titulo": "Luna en la ciudad (version 2)",
     "bpm": 107.7,
     "duracion": 276.504,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/08.mp3"
    },
    {
     "n": 9,
@@ -256,7 +282,8 @@
     "titulo": "Dulces sueños",
     "bpm": 107.7,
     "duracion": 182.28,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/09.mp3"
    },
    {
     "n": 10,
@@ -265,7 +292,8 @@
     "titulo": "Escucho tu voz",
     "bpm": 112.3,
     "duracion": 216.294,
-    "tonalidad": "Sol#"
+    "tonalidad": "Sol#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/10.mp3"
    },
    {
     "n": 11,
@@ -274,7 +302,8 @@
     "titulo": "Corazón De Piedra",
     "bpm": 112.3,
     "duracion": 292.944,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/11.mp3"
    },
    {
     "n": 12,
@@ -283,7 +312,8 @@
     "titulo": "Una noche inolvidable",
     "bpm": 112.3,
     "duracion": 335.28,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/12.mp3"
    },
    {
     "n": 13,
@@ -292,7 +322,8 @@
     "titulo": "Secretos al Hablar",
     "bpm": 112.3,
     "duracion": 216.6,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/13.mp3"
    },
    {
     "n": 14,
@@ -301,7 +332,8 @@
     "titulo": "Lo que pides",
     "bpm": 112.3,
     "duracion": 210.338,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/14.mp3"
    },
    {
     "n": 15,
@@ -310,7 +342,8 @@
     "titulo": "El amor lo cambia todo",
     "bpm": 112.3,
     "duracion": 202.632,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/15.mp3"
    },
    {
     "n": 16,
@@ -319,7 +352,8 @@
     "titulo": "Quiero saber",
     "bpm": 112.3,
     "duracion": 228.911,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/16.mp3"
    },
    {
     "n": 17,
@@ -328,7 +362,8 @@
     "titulo": "Dame esta noche",
     "bpm": 112.3,
     "duracion": 244.584,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/17.mp3"
    },
    {
     "n": 18,
@@ -337,7 +372,8 @@
     "titulo": "Domingo",
     "bpm": 112.3,
     "duracion": 241.032,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/18.mp3"
    },
    {
     "n": 19,
@@ -346,7 +382,8 @@
     "titulo": "Rara fiesta",
     "bpm": 112.3,
     "duracion": 219.864,
-    "tonalidad": "Re#"
+    "tonalidad": "Re#",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/19.mp3"
    },
    {
     "n": 20,
@@ -355,7 +392,8 @@
     "titulo": "Imaginación",
     "bpm": 112.3,
     "duracion": 257.4,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_2_Ciudad_de_Neon/20.mp3"
    }
   ]
  },
@@ -373,7 +411,8 @@
     "titulo": "Luz en el cielo",
     "bpm": 117.5,
     "duracion": 250.032,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_3_Ochentas/01.mp3"
    },
    {
     "n": 2,
@@ -382,7 +421,8 @@
     "titulo": "Ochentas (version 3)",
     "bpm": 117.5,
     "duracion": 259.872,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_3_Ochentas/02.mp3"
    },
    {
     "n": 3,
@@ -391,7 +431,8 @@
     "titulo": "Ochentas",
     "bpm": 117.5,
     "duracion": 293.784,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_3_Ochentas/03.mp3"
    },
    {
     "n": 4,
@@ -400,7 +441,8 @@
     "titulo": "Dime que estarás",
     "bpm": 117.5,
     "duracion": 232.512,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_3_Ochentas/04.mp3"
    },
    {
     "n": 5,
@@ -409,7 +451,8 @@
     "titulo": "Tren Peligroso",
     "bpm": 117.5,
     "duracion": 234.12,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_3_Ochentas/05.mp3"
    },
    {
     "n": 6,
@@ -418,7 +461,8 @@
     "titulo": "Ochentas (version 2)",
     "bpm": 117.5,
     "duracion": 275.952,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_3_Ochentas/06.mp3"
    },
    {
     "n": 7,
@@ -427,7 +471,8 @@
     "titulo": "Ultimo tren",
     "bpm": 117.5,
     "duracion": 235.337,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_3_Ochentas/07.mp3"
    },
    {
     "n": 8,
@@ -436,7 +481,8 @@
     "titulo": "Perdido",
     "bpm": 117.5,
     "duracion": 210.72,
-    "tonalidad": "Si"
+    "tonalidad": "Si",
+    "audio": "/music/Disco_3_Ochentas/08.mp3"
    },
    {
     "n": 9,
@@ -445,7 +491,8 @@
     "titulo": "Sigo en vos",
     "bpm": 117.5,
     "duracion": 292.937,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_3_Ochentas/09.mp3"
    },
    {
     "n": 10,
@@ -454,7 +501,8 @@
     "titulo": "Sigue asi",
     "bpm": 117.5,
     "duracion": 161.855,
-    "tonalidad": "Mi"
+    "tonalidad": "Mi",
+    "audio": "/music/Disco_3_Ochentas/10.mp3"
    },
    {
     "n": 11,
@@ -463,7 +511,8 @@
     "titulo": "Atrapado",
     "bpm": 123.0,
     "duracion": 185.04,
-    "tonalidad": "La#"
+    "tonalidad": "La#",
+    "audio": "/music/Disco_3_Ochentas/11.mp3"
    },
    {
     "n": 12,
@@ -472,7 +521,8 @@
     "titulo": "Duele Amarte",
     "bpm": 123.0,
     "duracion": 239.304,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_3_Ochentas/12.mp3"
    },
    {
     "n": 13,
@@ -481,7 +531,8 @@
     "titulo": "Universo",
     "bpm": 123.0,
     "duracion": 316.343,
-    "tonalidad": "Re#"
+    "tonalidad": "Re#",
+    "audio": "/music/Disco_3_Ochentas/13.mp3"
    },
    {
     "n": 14,
@@ -490,7 +541,8 @@
     "titulo": "Subir",
     "bpm": 123.0,
     "duracion": 194.795,
-    "tonalidad": "Sol#"
+    "tonalidad": "Sol#",
+    "audio": "/music/Disco_3_Ochentas/14.mp3"
    }
   ]
  },
@@ -508,7 +560,8 @@
     "titulo": "La unica",
     "bpm": 129.2,
     "duracion": 186.645,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_4_Llamas/01.mp3"
    },
    {
     "n": 2,
@@ -517,7 +570,8 @@
     "titulo": "Oportunidad",
     "bpm": 129.2,
     "duracion": 242.76,
-    "tonalidad": "La#"
+    "tonalidad": "La#",
+    "audio": "/music/Disco_4_Llamas/02.mp3"
    },
    {
     "n": 3,
@@ -526,7 +580,8 @@
     "titulo": "Sombras",
     "bpm": 129.2,
     "duracion": 247.584,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_4_Llamas/03.mp3"
    },
    {
     "n": 4,
@@ -535,7 +590,8 @@
     "titulo": "Lluvia Por Dentro",
     "bpm": 129.2,
     "duracion": 302.16,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_4_Llamas/04.mp3"
    },
    {
     "n": 5,
@@ -544,7 +600,8 @@
     "titulo": "En tu amor otra vez",
     "bpm": 129.2,
     "duracion": 201.72,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/05.mp3"
    },
    {
     "n": 6,
@@ -553,7 +610,8 @@
     "titulo": "Dilo ahora",
     "bpm": 129.2,
     "duracion": 285.205,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/06.mp3"
    },
    {
     "n": 7,
@@ -562,7 +620,8 @@
     "titulo": "Toma este Amor",
     "bpm": 129.2,
     "duracion": 259.512,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_4_Llamas/07.mp3"
    },
    {
     "n": 8,
@@ -571,7 +630,8 @@
     "titulo": "Nuestro Secreto",
     "bpm": 136.0,
     "duracion": 271.032,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/08.mp3"
    },
    {
     "n": 9,
@@ -580,7 +640,8 @@
     "titulo": "Nuestro Secreto (version 2)",
     "bpm": 136.0,
     "duracion": 249.792,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/09.mp3"
    },
    {
     "n": 10,
@@ -589,7 +650,8 @@
     "titulo": "Espejos Rotos",
     "bpm": 136.0,
     "duracion": 225.0,
-    "tonalidad": "La#"
+    "tonalidad": "La#",
+    "audio": "/music/Disco_4_Llamas/10.mp3"
    },
    {
     "n": 11,
@@ -598,7 +660,8 @@
     "titulo": "Luz Quebrada",
     "bpm": 136.0,
     "duracion": 257.544,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_4_Llamas/11.mp3"
    },
    {
     "n": 12,
@@ -607,7 +670,8 @@
     "titulo": "Dejar ir",
     "bpm": 143.6,
     "duracion": 271.92,
-    "tonalidad": "Fa"
+    "tonalidad": "Fa",
+    "audio": "/music/Disco_4_Llamas/12.mp3"
    },
    {
     "n": 13,
@@ -616,7 +680,8 @@
     "titulo": "Tan Lejos",
     "bpm": 143.6,
     "duracion": 230.112,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/13.mp3"
    },
    {
     "n": 14,
@@ -625,7 +690,8 @@
     "titulo": "Raíz",
     "bpm": 143.6,
     "duracion": 415.032,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_4_Llamas/14.mp3"
    },
    {
     "n": 15,
@@ -634,7 +700,8 @@
     "titulo": "No me falles",
     "bpm": 143.6,
     "duracion": 225.912,
-    "tonalidad": "Re#"
+    "tonalidad": "Re#",
+    "audio": "/music/Disco_4_Llamas/15.mp3"
    }
   ]
  },
@@ -652,7 +719,8 @@
     "titulo": "Intentar",
     "bpm": 152.0,
     "duracion": 279.744,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_5_Euforia/01.mp3"
    },
    {
     "n": 2,
@@ -661,7 +729,8 @@
     "titulo": "Girando",
     "bpm": 152.0,
     "duracion": 232.44,
-    "tonalidad": "Do"
+    "tonalidad": "Do",
+    "audio": "/music/Disco_5_Euforia/02.mp3"
    },
    {
     "n": 3,
@@ -670,7 +739,8 @@
     "titulo": "Él Me Toca",
     "bpm": 152.0,
     "duracion": 209.784,
-    "tonalidad": "Re#"
+    "tonalidad": "Re#",
+    "audio": "/music/Disco_5_Euforia/03.mp3"
    },
    {
     "n": 4,
@@ -679,7 +749,8 @@
     "titulo": "Los dias son numeros",
     "bpm": 152.0,
     "duracion": 324.206,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_5_Euforia/04.mp3"
    },
    {
     "n": 5,
@@ -688,7 +759,8 @@
     "titulo": "Cómo voy a dormir",
     "bpm": 152.0,
     "duracion": 214.992,
-    "tonalidad": "La#"
+    "tonalidad": "La#",
+    "audio": "/music/Disco_5_Euforia/05.mp3"
    },
    {
     "n": 6,
@@ -697,7 +769,8 @@
     "titulo": "Susurros Nocturnos",
     "bpm": 161.5,
     "duracion": 260.467,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_5_Euforia/06.mp3"
    },
    {
     "n": 7,
@@ -706,7 +779,8 @@
     "titulo": "Susurros nocturnos",
     "bpm": 161.5,
     "duracion": 260.467,
-    "tonalidad": "Sol"
+    "tonalidad": "Sol",
+    "audio": "/music/Disco_5_Euforia/07.mp3"
    },
    {
     "n": 8,
@@ -715,7 +789,8 @@
     "titulo": "Tu",
     "bpm": 161.5,
     "duracion": 284.592,
-    "tonalidad": "Sol#"
+    "tonalidad": "Sol#",
+    "audio": "/music/Disco_5_Euforia/08.mp3"
    },
    {
     "n": 9,
@@ -724,7 +799,8 @@
     "titulo": "Ana",
     "bpm": 161.5,
     "duracion": 265.224,
-    "tonalidad": "Fa#"
+    "tonalidad": "Fa#",
+    "audio": "/music/Disco_5_Euforia/09.mp3"
    },
    {
     "n": 10,
@@ -733,7 +809,8 @@
     "titulo": "Nuestro Amor",
     "bpm": 172.3,
     "duracion": 279.624,
-    "tonalidad": "Re"
+    "tonalidad": "Re",
+    "audio": "/music/Disco_5_Euforia/10.mp3"
    },
    {
     "n": 11,
@@ -742,7 +819,8 @@
     "titulo": "Buenos Momentos",
     "bpm": 172.3,
     "duracion": 243.48,
-    "tonalidad": "Sol#"
+    "tonalidad": "Sol#",
+    "audio": "/music/Disco_5_Euforia/11.mp3"
    },
    {
     "n": 12,
@@ -751,7 +829,8 @@
     "titulo": "Mundo cruel",
     "bpm": 172.3,
     "duracion": 217.548,
-    "tonalidad": "La"
+    "tonalidad": "La",
+    "audio": "/music/Disco_5_Euforia/12.mp3"
    }
   ]
  },

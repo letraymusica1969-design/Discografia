@@ -526,11 +526,20 @@ img { display: block; }
   list-style: none; border: 1px solid var(--line); border-radius: 4px;
   padding: 10px 24px 18px; font-family: 'BookAntiqua'; }
 .page-disco-tracks li {
-  display: grid; grid-template-columns: 44px 1fr auto auto; gap: 14px;
-  padding: 10px 6px; border-bottom: 1px solid rgba(244, 241, 234, 0.06); align-items: baseline; }
+  display: block; padding: 8px 6px 12px;
+  border-bottom: 1px solid rgba(244, 241, 234, 0.06); }
+.page-disco-tracks .t-row {
+  display: grid; grid-template-columns: 44px 1fr auto auto; gap: 14px; align-items: baseline; }
 .page-disco-tracks .t-n { color: var(--gold); font-family: 'Agency'; }
 .page-disco-tracks .t-bpm { color: var(--muted); font-size: 14px; }
 .page-disco-tracks .t-d { color: var(--muted); font-family: 'Agency'; font-size: 15px; }
+.page-disco-tracks .t-audio {
+  display: block; width: 100%; height: 34px; margin-top: 10px;
+  filter: invert(0.88) hue-rotate(20deg) saturate(1.4); }
+@media (max-width: 640px) {
+  .page-disco-tracks .t-row { grid-template-columns: 34px 1fr auto; }
+  .page-disco-tracks .t-bpm { display: none; }
+}
 
 /* single disco */
 .disco-hero { padding: 150px 40px 70px; max-width: 1440px; margin: 0 auto;

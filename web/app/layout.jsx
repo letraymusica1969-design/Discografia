@@ -1,6 +1,8 @@
 import './globals.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import AudioProvider from '../components/AudioProvider';
+import GlobalPlayer from '../components/GlobalPlayer';
 
 export const metadata = {
   title: 'Sandro Saavedra — Canciones de una Ciudad',
@@ -12,9 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <Nav />
-        {children}
-        <Footer />
+        <AudioProvider>
+          <Nav />
+          {children}
+          <Footer />
+          <GlobalPlayer />
+        </AudioProvider>
       </body>
     </html>
   );

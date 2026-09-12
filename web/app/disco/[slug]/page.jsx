@@ -34,7 +34,7 @@ export default async function DiscoPage({ params }) {
 
       <section className="section" style={{ paddingTop: 0 }}>
         <p className="section-lbl">TRACKLIST</p>
-        <DiscoPlayer tracks={d.tracklist} />
+        <DiscoPlayer tracks={d.tracklist} slug={d.slug} titulo={d.titulo} />
         <div style={{ marginTop: 26, fontFamily: 'Agency', letterSpacing: '0.15em' }}>
           <Link href="/musica" style={{ color: 'var(--gold)' }}>← Volver al archivo</Link>
         </div>

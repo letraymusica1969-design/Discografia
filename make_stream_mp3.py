@@ -4,7 +4,8 @@ import json, os, re, subprocess, sys
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FFMPEG = r"C:\Users\AI01_\AppData\Local\Temp\opencode\ffmpeg\bin\ffmpeg.exe"
-BITRATE = "128k"
+BITRATE = "160k"
+EQ = "equalizer=f=3000:t=q:w=1.2:g=2.5,equalizer=f=9000:t=q:w=1:g=2"
 
 WEB_BOX = os.path.join(ROOT, "web", "data", "box.json")
 SRC_ROOT = os.path.join(ROOT, "Discos")
@@ -29,7 +30,7 @@ def transcode(src, dest):
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     subprocess.run(
         [FFMPEG, "-y", "-hide_banner", "-loglevel", "error",
-         "-i", src, "-c:a", "libmp3lame", "-b:a", BITRATE,
+         "-i", src, "-af", EQ, "-c:a", "libmp3lame", "-abr", "1", "-b:a", BITRATE,
          "-id3v2_version", "3", "-map_metadata", "-1", dest],
         check=True)
 

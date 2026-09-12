@@ -31,7 +31,7 @@ export default function Musica() {
           <p className="section-lbl">MÚSICA</p>
           <h1>Archivo</h1>
           <p className="page-hero-sub">
-            El box set <em>Canciones de una ciudad</em> — seis volúmenes, setenta y cuatro canciones.
+            El box set <em>Canciones de una ciudad</em> — seis volúmenes, setenta y cinco canciones.
           </p>
         </div>
       </section>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Genera el pack USB para el sistema multimedia VW MIB:
-- 79 temas por disco (misma versión que la web), renombrados NN - Title.mp3
+- los temas por disco (misma versión que la web), renombrados NN - Title.mp3
 - tags ID3v2.3 (titulo, artista San Cougar, album, track/total, disco, año, género)
 - portada incrustada (600x600) + folder.jpg por disco
 - playlists .m3u por disco + una completa
@@ -13,7 +13,6 @@ OUT = os.path.join(ROOT, "Para_el_auto")
 FF = r"C:\Users\AI01_\AppData\Local\Temp\opencode\ffmpeg\bin\ffmpeg.exe"
 ARTISTA = "San Cougar"
 GEN = "Pop"
-TOTAL = 79
 
 
 def main():
@@ -60,7 +59,7 @@ def main():
 
     instrucciones = [
         "BAND SONORA PARA EL AUTO - CANCIONES DE UNA CIUDAD",
-        "Artista: San Cougar  |  79 temas en 5 discos  |  2026",
+        "Artista: San Cougar  |  %d temas en %d discos  |  2026" % (n_audio, n_disc),
         "",
         "COMO INSTALAR (SISTEMAS VW MIB / MIB2 / MIB3):",
         "1) Copia TODO el contenido de esta carpeta a la raiz de una memoria",

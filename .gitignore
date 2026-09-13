@@ -9,3 +9,6 @@ node_modules/
 web/dev.log
 *.log
 .vercel
+
+# pack USB para el auto (generado por preparar_auto.py)
+Para_el_auto/

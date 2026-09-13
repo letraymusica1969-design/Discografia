@@ -496,12 +496,12 @@
    },
    {
     "n": 16,
-    "archivo": "Esta vida.mp3",
-    "nombre": "16 - Esta vida.mp3",
-    "titulo": "Esta vida",
-    "bpm": 107.7,
-    "tonalidad": null,
-    "duracion": 215.96,
+    "archivo": "Ochentas.mp3",
+    "nombre": "16 - Ochentas.mp3",
+    "titulo": "Ochentas",
+    "bpm": 117.5,
+    "tonalidad": "Fa#",
+    "duracion": 248.76,
     "audio": "/music/Disco_3_Ochentas/16.mp3"
    }
   ]
@@ -794,42 +794,42 @@
    },
    {
     "n": 13,
-    "archivo": "Ochentas.mp3",
-    "nombre": "13 - Ochentas.mp3",
-    "titulo": "Ochentas",
-    "bpm": 117.5,
-    "tonalidad": "Fa#",
-    "duracion": 248.76,
-    "audio": "/music/Disco_5_Euforia/13.mp3"
-   },
-   {
-    "n": 14,
     "archivo": "Fuera de tiempo.mp3",
-    "nombre": "14 - Fuera de tiempo.mp3",
+    "nombre": "13 - Fuera de tiempo.mp3",
     "titulo": "Fuera de tiempo",
     "bpm": 117.5,
     "tonalidad": null,
     "duracion": 209.92,
-    "audio": "/music/Disco_5_Euforia/14.mp3"
+    "audio": "/music/Disco_5_Euforia/13.mp3"
    },
    {
-    "n": 15,
+    "n": 14,
     "archivo": "Lo que pides.mp3",
-    "nombre": "15 - Lo que pides.mp3",
+    "nombre": "14 - Lo que pides.mp3",
     "titulo": "Lo que pides",
     "bpm": 112.3,
     "tonalidad": "Fa#",
     "duracion": 210.312,
-    "audio": "/music/Disco_5_Euforia/15.mp3"
+    "audio": "/music/Disco_5_Euforia/14.mp3"
    },
    {
-    "n": 16,
+    "n": 15,
     "archivo": "Espejos Rotos.mp3",
-    "nombre": "16 - Espejos Rotos.mp3",
+    "nombre": "15 - Espejos Rotos.mp3",
     "titulo": "Espejos Rotos",
     "bpm": 136.0,
     "tonalidad": "La#",
     "duracion": 224.96,
+    "audio": "/music/Disco_5_Euforia/15.mp3"
+   },
+   {
+    "n": 16,
+    "archivo": "Esta vida.mp3",
+    "nombre": "16 - Esta vida.mp3",
+    "titulo": "Esta vida",
+    "bpm": 107.7,
+    "tonalidad": null,
+    "duracion": 215.96,
     "audio": "/music/Disco_5_Euforia/16.mp3"
    }
   ]

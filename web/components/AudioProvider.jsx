@@ -16,6 +16,7 @@ export default function AudioProvider({ children }) {
   const [playing, setPlaying] = useState(false);
   const [time, setTime] = useState(0);
   const [dur, setDur] = useState(0);
+  const [muted, setMuted] = useState(false);
   nowRef.current = now;
 
   const loadAndPlay = (list, meta, i) => {
@@ -111,8 +112,31 @@ export default function AudioProvider({ children }) {
     }
   };
 
+  const toggleMute = () => {
+    const a = audioRef.current;
+    if (!a) return;
+    a.muted = !a.muted;
+    setMuted(a.muted);
+  };
+
+  const stop = () => {
+    const a = audioRef.current;
+    if (!a) return;
+    a.pause();
+    a.removeAttribute('src');
+    a.load();
+    idxRef.current = -1;
+    listRef.current = [];
+    metaRef.current = { slug: '', titulo: '' };
+    nowRef.current = null;
+    setNow(null);
+    setPlaying(false);
+    setTime(0);
+    setDur(0);
+  };
+
   return (
-    <AudioCtx.Provider value={{ now, playing, time, dur, play, toggle, seekFrac, skip }}>
+    <AudioCtx.Provider value={{ now, playing, time, dur, muted, play, toggle, seekFrac, skip, toggleMute, stop }}>
       {children}
     </AudioCtx.Provider>
   );

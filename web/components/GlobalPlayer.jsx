@@ -12,7 +12,7 @@ const fmt = (s) => {
 };
 
 export default function GlobalPlayer() {
-  const { now, playing, time, dur, toggle, seekFrac, skip } = useAudio();
+  const { now, playing, time, dur, muted, toggle, seekFrac, skip, toggleMute, stop } = useAudio();
   const [scrollMini, setScrollMini] = useState(false);
   const [hover, setHover] = useState(false);
   const [forced, setForced] = useState(false);
@@ -104,6 +104,23 @@ export default function GlobalPlayer() {
             </button>
             <button className="gp-btn sm" onClick={() => skip(1)} aria-label="Siguiente">
               ⏭
+            </button>
+            <button
+              className={'gp-btn sm vol' + (muted ? ' is-off' : '')}
+              onClick={toggleMute}
+              aria-pressed={muted}
+              aria-label={muted ? 'Activar sonido' : 'Silenciar'}
+              title={muted ? 'Activar sonido' : 'Silenciar'}
+            >
+              ♪
+            </button>
+            <button
+              className="gp-btn sm close"
+              onClick={stop}
+              aria-label="Cerrar reproductor"
+              title="Cerrar"
+            >
+              ✕
             </button>
             <button
               className="gp-btn mini-toggle"

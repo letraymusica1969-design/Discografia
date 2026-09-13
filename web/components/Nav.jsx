@@ -7,7 +7,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
   return (
     <header className="nav">
-      <Link href="/" className="nav-logo">SANDRO<span>SAAVEDRA</span></Link>
+      <Link href="/" className="nav-logo">SAN<span>COUGAR</span></Link>
       <nav className={`nav-links ${open ? 'open' : ''}`}>
         <Link href="/" onClick={() => setOpen(false)}>Now</Link>
         <Link href="/musica" onClick={() => setOpen(false)}>Musica</Link>

@@ -377,7 +377,7 @@ def build(num, CONFIG, subtitulo):
     dr.rectangle([34, 34, S - 34, S - 34], outline=CONFIG["seal"] + (140,), width=1)
 
     f_art = fload(F_COND_R, 40)
-    gold_artist(img, "SANDRO SAAVEDRA", f_art, spacing=10,
+    gold_artist(img, "SAN COUGAR", f_art, spacing=10,
                 metal=CONFIG["metal"], glow=CONFIG["artist_glow"])
     draw_spaced(dr, (68, 148), "CANCIONES DE UNA CIUDAD", fload(F_COND_R, 23),
                 CONFIG["seal"], 7, shadow=(0, 0, 0))

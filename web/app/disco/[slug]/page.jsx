@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const d = getDisco((await params).slug);
-  return { title: d ? `${d.titulo} — Sandro Saavedra` : 'Disco' };
+  return { title: d ? `${d.titulo} — San Cougar` : 'Disco' };
 }
 
 export default async function DiscoPage({ params }) {

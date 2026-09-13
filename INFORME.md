@@ -1,6 +1,6 @@
 # Colección «Canciones de una Ciudad»
 
-**Sandro Saavedra** — Box set de 6 discos · 79 temas · 5 h 36 min
+**San Cougar** — Box set de 6 discos · 79 temas · 5 h 36 min
 Analizada y organizada por temperamento musical (tempo, energía y tonalidad medidos con `librosa`).
 
 ---
@@ -165,7 +165,7 @@ En `Discos\Tapas\` hay 10 imágenes (front + dorso) de 1500×1500 px. Las portad
 - **Euforia** — estallido radial: 200 trazos de partículas desde el centro con anillo rojo.
 
 Todos los frentes comparten el SHEEN metálico sobre el título, grano fotográfico y el sello
-«CANCIONES DE UNA CIUDAD». **Los dorsos** colocan el bloque de créditos/artista (SANDRO SAAVEDRA)
+«CANCIONES DE UNA CIUDAD». **Los dorsos** colocan el bloque de créditos/artista (SAN COUGAR)
 en la esquina inferior derecha y el código de barras abajo a la izquierda. Sin numeración de
 discos. Regenerables con `make_covers.py`.
 - **Dorso:** tracklist minimalista en dos columnas con duraciones, onda tenue al pie y código de

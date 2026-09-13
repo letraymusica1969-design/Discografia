@@ -11,7 +11,7 @@ const MARQUEE = [
   'LLAMAS',
   'EUFORIA',
   'CANCIONES DE UNA CIUDAD',
-  'SANDRO SAAVEDRA',
+  'SAN COUGAR',
 ];
 
 export default function Home() {
@@ -44,10 +44,10 @@ export default function Home() {
           <span className="bk bk-1" /><span className="bk bk-2" /><span className="bk bk-3" />
         </div>
         <div className="hero-inner">
-          <p className="hero-kicker">SANDRO SAAVEDRA · 2026</p>
-          <h1 aria-label="Sandro Saavedra">
-            SANDRO<br />
-            <span className="thin">SAAVEDRA</span>
+          <p className="hero-kicker">SAN COUGAR · 2026</p>
+          <h1 aria-label="San Cougar">
+            SAN<br />
+            <span className="thin">COUGAR</span>
           </h1>
           <p className="hero-sub">
             Canciones de una ciudad — un box set de seis discos, {total} canciones.
@@ -88,7 +88,7 @@ export default function Home() {
             <h3>Unirte al Desván</h3>
             <p>
               Material de archivo, historias de cada tema y acceso temprano a las próximas
-              publicaciones de Sandro Saavedra.
+              publicaciones de San Cougar.
             </p>
             <a href="#unete" className="more">Unirme →</a>
           </article>
@@ -111,7 +111,7 @@ export default function Home() {
         <div className="acerca">
           <p className="quote">«</p>
           <p>
-            Sandro Saavedra escribe, compone y arregla. «Canciones de una ciudad» reúne setenta y
+            San Cougar escribe, compone y arregla. «Canciones de una ciudad» reúne setenta y
             nueve canciones de la balada nocturna a la euforia del final de fiesta.
           </p>
           <p>

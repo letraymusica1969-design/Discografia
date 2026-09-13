@@ -2,7 +2,7 @@ import DiscoRow from '../../components/DiscoRow';
 import { getDiscos } from '../../lib/data';
 
 export const metadata = {
-  title: 'Música — Sandro Saavedra',
+  title: 'Música — San Cougar',
   description: 'Archivo musical: el box set Canciones de una Ciudad, volúmenes 1 a 5.',
 };
 

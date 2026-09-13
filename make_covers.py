@@ -17,7 +17,7 @@ F_COND_R = os.path.join(FONTS, "AGENCYR.TTF")
 F_NARR = os.path.join(FONTS, "ARIALN.TTF")
 F_MONO = os.path.join(FONTS, "consolab.ttf")
 S = 1500
-ARTISTA = "SANDRO SAAVEDRA"
+ARTISTA = "SAN COUGAR"
 
 with open(os.path.join(OUT, "box_set.json"), encoding="utf-8") as fh:
     BOX = json.load(fh)
@@ -691,7 +691,7 @@ def draw_back(d, pal):
 
     f_cred = fload(F_NARR, 24)
     xr = S - 118
-    lines = ["SANDRO SAAVEDRA",
+    lines = ["SAN COUGAR",
              "MUSICA, LETRA Y VOCES",
              "ARREGLOS: ESTUDIO CENTRAL",
              "PRODUCCION: EL DESVAN DEL VINILO",

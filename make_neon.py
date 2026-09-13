@@ -113,7 +113,7 @@ def build_letter(ch, dead=False):
 
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
-    chars = set("SANDRO") | set("SAAVEDRA")
+    chars = set("SAN") | set("COUGAR")
     for ch in sorted(chars):
         for dead in (False, True):
             if only and only != ch + ("_burn" if dead else ""):

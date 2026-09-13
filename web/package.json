@@ -1,8 +1,8 @@
 {
-  "name": "sandrosaavedra-web",
+  "name": "sancougar-web",
   "version": "1.0.0",
   "private": true,
-  "description": "Sandro Saavedra — Canciones de una Ciudad. Box set oficial.",
+  "description": "San Cougar — Canciones de una Ciudad. Box set oficial.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

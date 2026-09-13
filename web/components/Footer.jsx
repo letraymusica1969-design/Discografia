@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-main">
         <div>
-          <p className="footer-logo">SANDRO SAAVEDRA</p>
+          <p className="footer-logo">SAN COUGAR</p>
           <p className="footer-tag">Canciones de una ciudad — Box set de 6 volúmenes</p>
         </div>
         <div className="footer-links">
@@ -14,13 +14,13 @@ export default function Footer() {
           <Link href="/#acerca">Acerca</Link>
         </div>
         <div className="footer-credits">
-          <p>Música y letra: Sandro Saavedra</p>
+          <p>Música y letra: San Cougar</p>
           <p>Arreglos: Estudio Central</p>
           <p>Producción: El Desván del Vinilo — 2026</p>
         </div>
       </div>
       <div className="footer-bar">
-        <span>© 2026 Sandro Saavedra</span>
+        <span>© 2026 San Cougar</span>
         <span>33⅓ RPM — Estéreo</span>
       </div>
     </footer>

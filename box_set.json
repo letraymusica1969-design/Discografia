@@ -391,7 +391,7 @@
     "titulo": "Ochentas",
     "bpm": 117.5,
     "tonalidad": "Fa#",
-    "duracion": 293.76,
+    "duracion": 248.76,
     "audio": "/music/Disco_3_Ochentas/04.mp3"
    },
    {
@@ -493,6 +493,16 @@
     "tonalidad": "Re#",
     "duracion": 316.317,
     "audio": "/music/Disco_3_Ochentas/14.mp3"
+   },
+   {
+    "n": 15,
+    "archivo": "No Cambiaré.mp3",
+    "nombre": "15 - No Cambiaré.mp3",
+    "titulo": "No Cambiaré",
+    "bpm": 66.3,
+    "tonalidad": null,
+    "duracion": 268.36,
+    "audio": "/music/Disco_3_Ochentas/15.mp3"
    }
   ]
  },
@@ -600,7 +610,7 @@
     "titulo": "Dejar ir",
     "bpm": 143.6,
     "tonalidad": "Fa",
-    "duracion": 271.88,
+    "duracion": 287.96,
     "audio": "/music/Disco_4_Llamas/10.mp3"
    },
    {
@@ -642,6 +652,16 @@
     "tonalidad": "Do",
     "duracion": 415.0,
     "audio": "/music/Disco_4_Llamas/14.mp3"
+   },
+   {
+    "n": 15,
+    "archivo": "Perdiendote.mp3",
+    "nombre": "15 - Perdiendote.mp3",
+    "titulo": "Perdiendote",
+    "bpm": 95.7,
+    "tonalidad": null,
+    "duracion": 186.16,
+    "audio": "/music/Disco_4_Llamas/15.mp3"
    }
   ]
  },
@@ -791,6 +811,16 @@
     "tonalidad": "Sol#",
     "duracion": 243.44,
     "audio": "/music/Disco_5_Euforia/14.mp3"
+   },
+   {
+    "n": 15,
+    "archivo": "Fuera de tiempo.mp3",
+    "nombre": "15 - Fuera de tiempo.mp3",
+    "titulo": "Fuera de tiempo",
+    "bpm": 117.5,
+    "tonalidad": null,
+    "duracion": 209.92,
+    "audio": "/music/Disco_5_Euforia/15.mp3"
    }
   ]
  },

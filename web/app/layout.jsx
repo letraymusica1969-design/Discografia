@@ -7,7 +7,7 @@ import GlobalPlayer from '../components/GlobalPlayer';
 export const metadata = {
   title: 'San Cougar — Canciones de una Ciudad',
   description:
-    'San Cougar · Box set de 6 discos en vinilo. Música y letra. Canciones de una ciudad — 78 temas.',
+    'San Cougar · Box set de 6 discos en vinilo. Música y letra. Canciones de una ciudad — 80 temas.',
 };
 
 export default function RootLayout({ children }) {

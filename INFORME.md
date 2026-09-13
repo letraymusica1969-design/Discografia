@@ -1,6 +1,6 @@
 # Colección «Canciones de una Ciudad»
 
-**San Cougar** — Box set de 6 discos · 78 temas · 5 h 26 min
+**San Cougar** — Box set de 6 discos · 80 temas · 5 h 33 min
 Analizada y organizada por temperamento musical (tempo, energía y tonalidad medidos con `librosa`).
 
 ---

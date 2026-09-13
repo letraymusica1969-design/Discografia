@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getDiscos, getDisco, fmtTime } from '../../../lib/data';
 import DiscoPlayer from '../../../components/DiscoPlayer';
+import BackFab from '../../../components/BackFab';
 import { COVER_VERSION } from '../../../lib/version';
 
 export function generateStaticParams() {
@@ -43,6 +44,8 @@ export default async function DiscoPage({ params }) {
       <div className="disco-backback">
         <img src={`/covers/${d.slug}_back.jpg?${COVER_VERSION}`} alt={`${d.titulo} — dorso`} />
       </div>
+
+      <BackFab />
     </>
   );
 }

@@ -138,7 +138,6 @@ img { display: block; }
   font-family: 'Agency'; letter-spacing: 0.3em; font-size: 14px;
   color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
   padding: 9px 16px; border-radius: 999px; background: rgba(5, 5, 8, 0.55);
-  animation: twinkle 3s ease-in-out infinite;
 }
 .hero-fx .bk-1 { left: 38%; top: 6%; }
 .hero-fx .bk-2 { right: 40%; top: 10%; animation-delay: 1.4s; }
@@ -367,9 +366,7 @@ img { display: block; }
   color: transparent; -webkit-text-stroke: 1px rgba(244, 241, 234, 0.55);
   filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.12));
 }
-.ticker-item i { font-style: normal; font-size: 0.55em; color: var(--gold);
-  -webkit-text-stroke: 0; animation: twinkle 2.4s ease-in-out infinite; }
-.ticker-item i:nth-child(odd) { animation-delay: 1.2s; }
+.ticker-item i { font-style: normal; font-size: 0.55em; color: var(--gold); -webkit-text-stroke: 0; }
 @keyframes twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.7); } }
 
 .archive { display: flex; flex-direction: column; gap: 26px; padding: 46px 40px 40px; max-width: 1440px; margin: 0 auto; }
@@ -763,3 +760,21 @@ body { padding-bottom: 112px; }
   .disco-tracks li { grid-template-columns: 30px 1fr auto; }
   .disco-tracks .t-bpm { display: none; }
 }
+
+/* boton flotante volver atras (BackFab) */
+.bfab {
+  position: fixed; z-index: 80;
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Agency'; font-weight: 700; letter-spacing: 0.18em; font-size: 16px;
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent);
+  background: rgba(10, 9, 14, 0.82);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  padding: 13px 22px; border-radius: 999px;
+  cursor: grab; user-select: none; touch-action: none;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  transition: transform 0.15s, box-shadow 0.2s, border-color 0.2s;
+}
+.bfab:hover { transform: translateY(-2px); border-color: var(--gold); }
+.bfab.is-drag { cursor: grabbing; transform: scale(1.04); }
+.bfab .bf-arr { font-size: 20px; line-height: 1; }

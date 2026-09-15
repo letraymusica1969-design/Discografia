@@ -1,159 +1,169 @@
 ﻿#EXTM3U
-#EXTINF:237,Sin aliento
-Disco_1_Medianoche\01 - Sin aliento.mp3
-#EXTINF:239,Esclavo
-Disco_1_Medianoche\02 - Esclavo.mp3
-#EXTINF:238,Solo un momento
-Disco_1_Medianoche\03 - Solo un momento.mp3
-#EXTINF:309,La Razon
-Disco_1_Medianoche\04 - La Razon.mp3
-#EXTINF:344,El rumor
-Disco_1_Medianoche\05 - El rumor.mp3
-#EXTINF:355,La Razon (version 2)
-Disco_1_Medianoche\06 - La Razon (2).mp3
-#EXTINF:305,Te Necesito Ahora
-Disco_1_Medianoche\07 - Te Necesito Ahora.mp3
-#EXTINF:270,Noche con una desconocida
-Disco_1_Medianoche\08 - Noche con una desconocida.mp3
-#EXTINF:215,Donde
-Disco_1_Medianoche\09 - Donde.mp3
 #EXTINF:257,Relajate
-Disco_1_Medianoche\10 - Relajate.mp3
-#EXTINF:237,Dejar atrás
-Disco_1_Medianoche\11 - Dejar atrás.mp3
-#EXTINF:264,Mientras el mundo cae
-Disco_1_Medianoche\12 - Mientras el mundo cae.mp3
-#EXTINF:216,Donde falle
-Disco_1_Medianoche\13 - Donde falle.mp3
-#EXTINF:212,No pienso en ti
-Disco_1_Medianoche\14 - No pienso en ti.mp3
-#EXTINF:335,No te Rindas
-Disco_1_Medianoche\15 - No te Rindas.mp3
-#EXTINF:255,Dile
-Disco_1_Medianoche\16 - Dile.mp3
-#EXTINF:330,Hombre del ayer
-Disco_1_Medianoche\17 - Hombre del ayer.mp3
-#EXTINF:241,Perdoname
-Disco_1_Medianoche\18 - Perdoname.mp3
-#EXTINF:317,Senales
-Disco_2_Ciudad_de_Neon\01 - Senales.mp3
-#EXTINF:265,Más allá
-Disco_2_Ciudad_de_Neon\02 - Más allá.mp3
-#EXTINF:208,Buscando un amor
-Disco_2_Ciudad_de_Neon\03 - Buscando un amor.mp3
-#EXTINF:217,Nada nos aparta
-Disco_2_Ciudad_de_Neon\04 - Nada nos aparta.mp3
-#EXTINF:204,Generación Perdida
-Disco_2_Ciudad_de_Neon\05 - Generación Perdida.mp3
-#EXTINF:283,Radio & Ruta
-Disco_2_Ciudad_de_Neon\06 - Radio & Ruta.mp3
-#EXTINF:276,Luna en la ciudad
-Disco_2_Ciudad_de_Neon\07 - Luna en la ciudad.mp3
-#EXTINF:276,Luna en la ciudad (version 2)
-Disco_2_Ciudad_de_Neon\08 - Luna en la ciudad (2).mp3
-#EXTINF:182,Dulces sueños
-Disco_2_Ciudad_de_Neon\09 - Dulces sueños.mp3
-#EXTINF:216,Escucho tu voz
-Disco_2_Ciudad_de_Neon\10 - Escucho tu voz.mp3
-#EXTINF:292,Corazón De Piedra
-Disco_2_Ciudad_de_Neon\11 - Corazón De Piedra.mp3
-#EXTINF:335,Una noche inolvidable
-Disco_2_Ciudad_de_Neon\12 - Una noche inolvidable.mp3
-#EXTINF:216,Secretos al Hablar
-Disco_2_Ciudad_de_Neon\13 - Secretos al Hablar.mp3
-#EXTINF:210,Lo que pides
-Disco_2_Ciudad_de_Neon\14 - Lo que pides.mp3
-#EXTINF:202,El amor lo cambia todo
-Disco_2_Ciudad_de_Neon\15 - El amor lo cambia todo.mp3
-#EXTINF:228,Quiero saber
-Disco_2_Ciudad_de_Neon\16 - Quiero saber.mp3
+Disco_1_Medianoche\01 - Relajate.mp3
 #EXTINF:244,Dame esta noche
-Disco_2_Ciudad_de_Neon\17 - Dame esta noche.mp3
-#EXTINF:241,Domingo
-Disco_2_Ciudad_de_Neon\18 - Domingo.mp3
-#EXTINF:219,Rara fiesta
-Disco_2_Ciudad_de_Neon\19 - Rara fiesta.mp3
-#EXTINF:257,Imaginación
-Disco_2_Ciudad_de_Neon\20 - Imaginación.mp3
-#EXTINF:250,Luz en el cielo
-Disco_3_Ochentas\01 - Luz en el cielo.mp3
-#EXTINF:259,Ochentas (version 3)
-Disco_3_Ochentas\02 - Ochentas (3).mp3
-#EXTINF:293,Ochentas
-Disco_3_Ochentas\03 - Ochentas.mp3
-#EXTINF:232,Dime que estarás
-Disco_3_Ochentas\04 - Dime que estarás.mp3
-#EXTINF:234,Tren Peligroso
-Disco_3_Ochentas\05 - Tren Peligroso.mp3
-#EXTINF:275,Ochentas (version 2)
-Disco_3_Ochentas\06 - Ochentas (2).mp3
-#EXTINF:235,Ultimo tren
-Disco_3_Ochentas\07 - Ultimo tren.mp3
-#EXTINF:210,Perdido
-Disco_3_Ochentas\08 - Perdido.mp3
-#EXTINF:292,Sigo en vos
-Disco_3_Ochentas\09 - Sigo en vos.mp3
-#EXTINF:161,Sigue asi
-Disco_3_Ochentas\10 - Sigue asi.mp3
+Disco_1_Medianoche\02 - Dame esta noche.mp3
 #EXTINF:185,Atrapado
-Disco_3_Ochentas\11 - Atrapado.mp3
-#EXTINF:239,Duele Amarte
-Disco_3_Ochentas\12 - Duele Amarte.mp3
-#EXTINF:316,Universo
-Disco_3_Ochentas\13 - Universo.mp3
-#EXTINF:194,Subir
-Disco_3_Ochentas\14 - Subir.mp3
-#EXTINF:186,La unica
-Disco_4_Llamas\01 - La unica.mp3
+Disco_1_Medianoche\03 - Atrapado.mp3
 #EXTINF:242,Oportunidad
-Disco_4_Llamas\02 - Oportunidad.mp3
-#EXTINF:247,Sombras
-Disco_4_Llamas\03 - Sombras.mp3
-#EXTINF:302,Lluvia Por Dentro
-Disco_4_Llamas\04 - Lluvia Por Dentro.mp3
-#EXTINF:201,En tu amor otra vez
-Disco_4_Llamas\05 - En tu amor otra vez.mp3
-#EXTINF:285,Dilo ahora
-Disco_4_Llamas\06 - Dilo ahora.mp3
-#EXTINF:259,Toma este Amor
-Disco_4_Llamas\07 - Toma este Amor.mp3
-#EXTINF:271,Nuestro Secreto
-Disco_4_Llamas\08 - Nuestro Secreto.mp3
-#EXTINF:249,Nuestro Secreto (version 2)
-Disco_4_Llamas\09 - Nuestro Secreto (2).mp3
-#EXTINF:225,Espejos Rotos
-Disco_4_Llamas\10 - Espejos Rotos.mp3
-#EXTINF:257,Luz Quebrada
-Disco_4_Llamas\11 - Luz Quebrada.mp3
-#EXTINF:271,Dejar ir
-Disco_4_Llamas\12 - Dejar ir.mp3
-#EXTINF:230,Tan Lejos
-Disco_4_Llamas\13 - Tan Lejos.mp3
-#EXTINF:415,Raíz
-Disco_4_Llamas\14 - Raíz.mp3
-#EXTINF:225,No me falles
-Disco_4_Llamas\15 - No me falles.mp3
-#EXTINF:279,Intentar
-Disco_5_Euforia\01 - Intentar.mp3
-#EXTINF:232,Girando
-Disco_5_Euforia\02 - Girando.mp3
-#EXTINF:209,Él Me Toca
-Disco_5_Euforia\03 - Él Me Toca.mp3
-#EXTINF:324,Los dias son numeros
-Disco_5_Euforia\04 - Los dias son numeros.mp3
-#EXTINF:214,Cómo voy a dormir
-Disco_5_Euforia\05 - Cómo voy a dormir.mp3
-#EXTINF:260,Susurros Nocturnos
-Disco_5_Euforia\06 - Susurros Nocturnos.mp3
-#EXTINF:260,Susurros nocturnos
-Disco_5_Euforia\07 - Susurros Nocturnos.mp3
-#EXTINF:284,Tu
-Disco_5_Euforia\08 - Tu.mp3
+Disco_1_Medianoche\04 - Oportunidad.mp3
+#EXTINF:217,Nada nos aparta
+Disco_1_Medianoche\05 - Nada nos aparta.mp3
 #EXTINF:265,Ana
-Disco_5_Euforia\09 - Ana.mp3
-#EXTINF:279,Nuestro Amor
-Disco_5_Euforia\10 - Nuestro Amor.mp3
-#EXTINF:243,Buenos Momentos
-Disco_5_Euforia\11 - Buenos Momentos.mp3
+Disco_1_Medianoche\06 - Ana.mp3
+#EXTINF:186,Perdiendote
+Disco_1_Medianoche\07 - Perdiendote.mp3
+#EXTINF:209,Él Me Toca
+Disco_1_Medianoche\08 - Él Me Toca.mp3
+#EXTINF:264,Mientras el mundo cae
+Disco_1_Medianoche\09 - Mientras el mundo cae.mp3
+#EXTINF:292,Corazón De Piedra
+Disco_1_Medianoche\10 - Corazón De Piedra.mp3
+#EXTINF:330,Hombre del ayer
+Disco_1_Medianoche\11 - Hombre del ayer.mp3
+#EXTINF:194,Subir
+Disco_1_Medianoche\12 - Subir.mp3
+#EXTINF:324,Los dias son numeros
+Disco_1_Medianoche\13 - Los dias son numeros.mp3
+#EXTINF:232,Girando
+Disco_1_Medianoche\14 - Girando.mp3
+#EXTINF:204,Generación Perdida
+Disco_1_Medianoche\15 - Generación Perdida.mp3
+#EXTINF:182,Dulces sueños
+Disco_1_Medianoche\16 - Dulces sueños.mp3
+#EXTINF:227,El Predicador
+Disco_1_Medianoche\17 - El Predicador.mp3
+#EXTINF:305,Te Necesito Ahora
+Disco_2_Ciudad_de_Neon\01 - Te Necesito Ahora.mp3
+#EXTINF:287,Dejar ir
+Disco_2_Ciudad_de_Neon\02 - Dejar ir.mp3
+#EXTINF:237,Sin aliento
+Disco_2_Ciudad_de_Neon\03 - Sin aliento.mp3
+#EXTINF:415,Raíz
+Disco_2_Ciudad_de_Neon\04 - Raíz.mp3
+#EXTINF:216,Donde falle
+Disco_2_Ciudad_de_Neon\05 - Donde falle.mp3
+#EXTINF:239,Duele Amarte
+Disco_2_Ciudad_de_Neon\06 - Duele Amarte.mp3
+#EXTINF:283,Radio & Ruta
+Disco_2_Ciudad_de_Neon\07 - Radio & Ruta.mp3
+#EXTINF:214,Cómo voy a dormir
+Disco_2_Ciudad_de_Neon\08 - Cómo voy a dormir.mp3
+#EXTINF:232,Dime que estarás
+Disco_2_Ciudad_de_Neon\09 - Dime que estarás.mp3
+#EXTINF:238,Solo un momento
+Disco_2_Ciudad_de_Neon\10 - Solo un momento.mp3
+#EXTINF:201,En tu amor otra vez
+Disco_2_Ciudad_de_Neon\11 - En tu amor otra vez.mp3
+#EXTINF:259,Toma este Amor
+Disco_2_Ciudad_de_Neon\12 - Toma este Amor.mp3
+#EXTINF:316,Universo
+Disco_2_Ciudad_de_Neon\13 - Universo.mp3
+#EXTINF:260,Susurros Nocturnos
+Disco_2_Ciudad_de_Neon\14 - Susurros Nocturnos.mp3
+#EXTINF:292,Sigo en vos
+Disco_2_Ciudad_de_Neon\15 - Sigo en vos.mp3
+#EXTINF:247,Sombras
+Disco_2_Ciudad_de_Neon\16 - Sombras.mp3
+#EXTINF:259,No Cambiaré
+Disco_3_Ochentas\01 - No Cambiaré.mp3
+#EXTINF:161,Sigue asi
+Disco_3_Ochentas\02 - Sigue asi.mp3
+#EXTINF:319,Cuando el amor
+Disco_3_Ochentas\03 - Cuando el amor.mp3
+#EXTINF:251,Nuestro Amor
+Disco_3_Ochentas\04 - Nuestro Amor.mp3
+#EXTINF:202,El amor lo cambia todo
+Disco_3_Ochentas\05 - El amor lo cambia todo.mp3
+#EXTINF:228,Quiero saber
+Disco_3_Ochentas\06 - Quiero saber.mp3
+#EXTINF:216,Secretos al Hablar
+Disco_3_Ochentas\07 - Secretos al Hablar.mp3
+#EXTINF:225,No me falles
+Disco_3_Ochentas\08 - No me falles.mp3
+#EXTINF:267,Tan Lejos
+Disco_3_Ochentas\09 - Tan Lejos.mp3
+#EXTINF:335,No te Rindas
+Disco_3_Ochentas\10 - No te Rindas.mp3
+#EXTINF:283,Noche con una desconocida
+Disco_3_Ochentas\11 - Noche con una desconocida.mp3
+#EXTINF:213,Perdido
+Disco_3_Ochentas\12 - Perdido.mp3
+#EXTINF:216,Escucho tu voz
+Disco_3_Ochentas\13 - Escucho tu voz.mp3
+#EXTINF:235,Ultimo tren
+Disco_3_Ochentas\14 - Ultimo tren.mp3
+#EXTINF:237,Dejar atrás
+Disco_3_Ochentas\15 - Dejar atrás.mp3
+#EXTINF:248,Ochentas
+Disco_3_Ochentas\16 - Ochentas.mp3
+#EXTINF:223,Escandalo
+Disco_3_Ochentas\17 - Escandalo.mp3
+#EXTINF:264,Nuestro Secreto
+Disco_4_Llamas\01 - Nuestro Secreto.mp3
+#EXTINF:241,Domingo
+Disco_4_Llamas\02 - Domingo.mp3
+#EXTINF:265,Más allá
+Disco_4_Llamas\03 - Más allá.mp3
+#EXTINF:239,Esclavo
+Disco_4_Llamas\04 - Esclavo.mp3
 #EXTINF:217,Mundo cruel
-Disco_5_Euforia\12 - Mundo cruel.mp3
+Disco_4_Llamas\05 - Mundo cruel.mp3
+#EXTINF:314,El rumor
+Disco_4_Llamas\06 - El rumor.mp3
+#EXTINF:234,Tren Peligroso
+Disco_4_Llamas\07 - Tren Peligroso.mp3
+#EXTINF:317,Senales
+Disco_4_Llamas\08 - Senales.mp3
+#EXTINF:215,Donde
+Disco_4_Llamas\09 - Donde.mp3
+#EXTINF:208,Rara fiesta
+Disco_4_Llamas\10 - Rara fiesta.mp3
+#EXTINF:257,Imaginación
+Disco_4_Llamas\11 - Imaginación.mp3
+#EXTINF:250,Luz en el cielo
+Disco_4_Llamas\12 - Luz en el cielo.mp3
+#EXTINF:186,La unica
+Disco_4_Llamas\13 - La unica.mp3
+#EXTINF:212,No pienso en ti
+Disco_4_Llamas\14 - No pienso en ti.mp3
+#EXTINF:243,Buenos Momentos
+Disco_4_Llamas\15 - Buenos Momentos.mp3
+#EXTINF:244,Muy pocas Ganas
+Disco_4_Llamas\16 - Muy pocas Ganas.mp3
+#EXTINF:201,Farsante
+Disco_4_Llamas\17 - Farsante.mp3
+#EXTINF:335,Una noche inolvidable
+Disco_5_Euforia\01 - Una noche inolvidable.mp3
+#EXTINF:238,Tu
+Disco_5_Euforia\02 - Tu.mp3
+#EXTINF:302,Lluvia Por Dentro
+Disco_5_Euforia\03 - Lluvia Por Dentro.mp3
+#EXTINF:276,Luna en la ciudad
+Disco_5_Euforia\04 - Luna en la ciudad.mp3
+#EXTINF:285,Dilo ahora
+Disco_5_Euforia\05 - Dilo ahora.mp3
+#EXTINF:279,Intentar
+Disco_5_Euforia\06 - Intentar.mp3
+#EXTINF:255,Dile
+Disco_5_Euforia\07 - Dile.mp3
+#EXTINF:241,Perdoname
+Disco_5_Euforia\08 - Perdoname.mp3
+#EXTINF:268,Luz Quebrada
+Disco_5_Euforia\09 - Luz Quebrada.mp3
+#EXTINF:309,La Razon
+Disco_5_Euforia\10 - La Razon.mp3
+#EXTINF:224,Buscando un amor
+Disco_5_Euforia\11 - Buscando un amor.mp3
+#EXTINF:209,Fuera de tiempo
+Disco_5_Euforia\12 - Fuera de tiempo.mp3
+#EXTINF:210,Lo que pides
+Disco_5_Euforia\13 - Lo que pides.mp3
+#EXTINF:226,Espejos Rotos
+Disco_5_Euforia\14 - Espejos Rotos.mp3
+#EXTINF:215,Esta vida
+Disco_5_Euforia\15 - Esta vida.mp3
+#EXTINF:234,Hipnotizado
+Disco_5_Euforia\16 - Hipnotizado.mp3
+#EXTINF:194,Cambiaste mi mundo
+Disco_5_Euforia\17 - Cambiaste mi mundo.mp3

@@ -22,14 +22,19 @@ export default async function DiscoPage({ params }) {
   return (
     <>
       <section className="disco-hero">
-        <img src={`/covers/${d.slug}_front.jpg?${COVER_VERSION}`} alt={`${d.titulo} — portada`} />
+        <div className="dcover">
+          <span className="dcover-vinyl" aria-hidden />
+          <img src={`/covers/${d.slug}_front.jpg?${COVER_VERSION}`} alt={`${d.titulo} — portada`} />
+        </div>
         <div>
           <p className="kick">BOX SET · VINILO · 2026 · VOL.{String(d.numero).padStart(2, '0')}</p>
           <h1>{d.titulo}</h1>
           <p className="sub">{d.subtitulo}</p>
-          <span className="stat">{totalTracks} canciones</span>
-          <span className="stat">{fmtTime(dur)}</span>
-          <span className="stat">{d.ambito}</span>
+          <div className="stats">
+            <span className="stat">{totalTracks} canciones</span>
+            <span className="stat">{fmtTime(dur)}</span>
+            <span className="stat">{d.ambito}</span>
+          </div>
         </div>
       </section>
 

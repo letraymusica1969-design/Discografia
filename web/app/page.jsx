@@ -78,7 +78,7 @@ export default function Home() {
             <p className="date">PRIMER EXTRACTO · 2026</p>
             <h3>Medianoche</h3>
             <p>
-              Dieciocho baladas que se escuchan a oscuras. El volumen de apertura del box, con la
+              Diecisiete baladas que se escuchan a oscuras. El volumen de apertura del box, con la
               portada de luna de niebla.
             </p>
             <Link href="/disco/Disco_1_Medianoche" className="more">Escuchar / ver →</Link>
@@ -111,8 +111,8 @@ export default function Home() {
         <div className="acerca">
           <p className="quote">«</p>
           <p>
-            San Cougar escribe, compone y arregla. «Canciones de una ciudad» reúne setenta y
-            nueve canciones de la balada nocturna a la euforia del final de fiesta.
+            San Cougar escribe, compone y arregla. «Canciones de una ciudad» reúne ochenta y
+            cuatro canciones de la balada nocturna a la euforia del final de fiesta.
           </p>
           <p>
             Seis discos — Medianoche, Ciudad de Neon, Ochentas, Llamas, Euforia y Directo —

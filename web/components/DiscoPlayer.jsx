@@ -11,9 +11,21 @@ const fmtDur = (s) => {
 
 export default function DiscoPlayer({ tracks, slug, titulo }) {
   const { now, playing, toggle, play } = useAudio();
-  const meta = { slug, titulo };
+  const meta = { slug, titulo, tracks };
   return (
-    <ol className="page-disco-tracks tp-list">
+    <>
+      {tracks.length > 0 && (
+        <div className="tp-playall">
+          <button className="tp-playall-btn" onClick={() => play(tracks, meta, 0)}>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+              <path d="M7.5 4.5 20 12 7.5 19.5z" />
+            </svg>
+            Reproducir todo
+          </button>
+          <span className="tp-playall-note">{tracks.length} canciones</span>
+        </div>
+      )}
+      <ol className="page-disco-tracks tp-list">
       {tracks.map((t, i) => {
         const active = !!now && now.meta.slug === slug && now.track.n === t.n;
         return (
@@ -50,6 +62,7 @@ export default function DiscoPlayer({ tracks, slug, titulo }) {
           </li>
         );
       })}
-    </ol>
+      </ol>
+    </>
   );
 }

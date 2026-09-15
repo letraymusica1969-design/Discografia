@@ -8,7 +8,10 @@ const KEY = 'backfab-pos';
 export default function BackFab() {
   const router = useRouter();
   const ref = useRef(null);
-  const [pos, setPos] = useState({ right: 26, bottom: 164 });
+  const [pos, setPos] = useState(() => ({
+    right: typeof window !== 'undefined' && window.innerWidth <= 700 ? 16 : 26,
+    bottom: typeof window !== 'undefined' && window.innerWidth <= 700 ? 220 : 164,
+  }));
   const [dragging, setDragging] = useState(false);
   const drag = useRef(null);
   const posRef = useRef(pos);

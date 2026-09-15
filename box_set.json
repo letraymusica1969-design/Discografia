@@ -165,6 +165,16 @@
     "tonalidad": "Sol",
     "duracion": 182.24,
     "audio": "/music/Disco_1_Medianoche/16.mp3"
+   },
+   {
+    "n": 17,
+    "archivo": "El Predicador.mp3",
+    "nombre": "17 - El Predicador.mp3",
+    "titulo": "El Predicador",
+    "bpm": 95.7,
+    "tonalidad": null,
+    "duracion": 227.6,
+    "audio": "/music/Disco_1_Medianoche/17.mp3"
    }
   ]
  },
@@ -351,7 +361,7 @@
     "titulo": "No Cambiaré",
     "bpm": 66.3,
     "tonalidad": null,
-    "duracion": 268.36,
+    "duracion": 259.88,
     "audio": "/music/Disco_3_Ochentas/01.mp3"
    },
    {
@@ -503,6 +513,16 @@
     "tonalidad": "Fa#",
     "duracion": 248.76,
     "audio": "/music/Disco_3_Ochentas/16.mp3"
+   },
+   {
+    "n": 17,
+    "archivo": "Escandalo.mp3",
+    "nombre": "17 - Escandalo.mp3",
+    "titulo": "Escandalo",
+    "bpm": 161.5,
+    "tonalidad": null,
+    "duracion": 223.16,
+    "audio": "/music/Disco_3_Ochentas/17.mp3"
    }
   ]
  },
@@ -672,6 +692,16 @@
     "tonalidad": null,
     "duracion": 244.84,
     "audio": "/music/Disco_4_Llamas/16.mp3"
+   },
+   {
+    "n": 17,
+    "archivo": "Farsante.mp3",
+    "nombre": "17 - Farsante.mp3",
+    "titulo": "Farsante",
+    "bpm": 107.7,
+    "tonalidad": null,
+    "duracion": 201.16,
+    "audio": "/music/Disco_4_Llamas/17.mp3"
    }
   ]
  },
@@ -841,6 +871,16 @@
     "tonalidad": null,
     "duracion": 234.4,
     "audio": "/music/Disco_5_Euforia/16.mp3"
+   },
+   {
+    "n": 17,
+    "archivo": "Cambiaste mi mundo.mp3",
+    "nombre": "17 - Cambiaste mi mundo.mp3",
+    "titulo": "Cambiaste mi mundo",
+    "bpm": 95.7,
+    "tonalidad": null,
+    "duracion": 194.8,
+    "audio": "/music/Disco_5_Euforia/17.mp3"
    }
   ]
  },
